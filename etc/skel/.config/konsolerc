@@ -1,0 +1,23 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[DownloadDialog Settings]
+eDP-1 Height 900=446
+eDP-1 Width 1600=700
+
+[Favorite Profiles]
+Favorites=
+
+[KonsoleWindow]
+ShowMenuBarByDefault=false
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAngAAAHdAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+eDP-1 Height 900=477
+eDP-1 Width 1600=632
+eDP-1 XPosition=280
+eDP-1 YPosition=224
+eDP1 XPosition=960
+eDP1 YPosition=29

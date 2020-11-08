@@ -1,0 +1,17 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Settings;HardwareSettings;
+Comment=Tool for fingerprint enrollment and verification
+Exec=fingerprint-gui --debug
+GenericName=Fingerprint Tool
+Icon=blivet-gui
+Name=Fingerprint GUI
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=fingerprint-gui
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=

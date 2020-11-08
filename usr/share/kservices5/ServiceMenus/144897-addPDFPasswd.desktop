@@ -1,0 +1,35 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/pdf;
+Actions=addPDFPasswd
+
+[Desktop Action addPDFPasswd]
+Name=Add Password to PDF
+Name[de]=Passwort zu PDF hinzufügen
+Name[el]=Κωδικός πρόσβασης στο PDF
+Icon=application-pdf
+Exec=/bin/bash -c 'Confirmation="1"; InputFile="$0"; TmpFile="/tmp/ServiceMenu_addPDFPasswd.pdf"; Program="pdftk"; if command -v $Program > /dev/null 2>&1 ; then Passwd=`kdialog --password "Set password for the PDF:"`; $Program "$InputFile" output "$TmpFile" user_pw "$Passwd"; mv "$InputFile" "$InputFile.org"; mv "$TmpFile" "$InputFile"; if [ "$Confirmation" -eq 1 ] ; then kdialog --msgbox "Password added to selected File\nOriginal was was renamed to .org"; fi else kdialog --error "$Program could not be found. Please install $Program"; fi' %u
+
+
+
+########################################### The actual script shown nicely #######################################
+#
+#
+#Confirmation="1";
+#InputFile="$0";
+#TmpFile="/tmp/ServiceMenu_addPDFPasswd.pdf";
+#Program="pdftk";
+#if command -v $Program > /dev/null 2>&1 ;
+#then
+#	Passwd=`kdialog --password "Set password for the PDF:"`;
+#	$Program "$InputFile" output "$TmpFile" user_pw "$Passwd";
+#	mv "$InputFile" "$InputFile.org";
+#	mv "$TmpFile" "$InputFile";
+#	if [ "$Confirmation" -eq 1 ] ;
+#	then
+#		kdialog --msgbox "Password added to selected File\nOriginal was was renamed to .org";
+#	fi
+#else
+#		kdialog --error "$Program could not be found. Please install $Program";
+#fi' %u

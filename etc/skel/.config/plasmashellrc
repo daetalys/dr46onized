@@ -1,0 +1,33 @@
+[DownloadDialog Settings]
+eDP-1 Height 900=446
+eDP-1 Width 1600=700
+
+[KFileDialog Settings]
+Recent Files[$e]=T440p.png,file:$HOME/Bilder/Wallpaper/Ghosts.jpg,file:$HOME/Bilder/Wallpaper/T440p.png
+Recent URLs[$e]=file:$HOME/Bilder/Wallpaper/,file:$HOME/Bilder/
+detailViewIconSize=0
+
+[KPropertiesDialog]
+eDP-1 Height 900=463
+eDP-1 Width 1600=590
+
+[Notification Messages]
+really_clear_history=true
+
+[PlasmaRunnerManager]
+LaunchCounts=4 services_applications:octopi.desktop,1 services_applications:timeshift-gtk.desktop,1 services_applications:virtualbox.desktop,1 services_applications:org.kde.latte-dock.desktop,1 services_applications:kcm_energyinfo.desktop,1 services_applications:fingerprint-gui.desktop,1 services_applications:khotkeys.desktop,12 services_applications:org.kde.konsole.desktop,1 services_applications:chromium.desktop,12 services_applications:Alacritty.desktop,1 services_applications:com.nextcloud.desktopclient.nextcloud.desktop,1 services_applications:systemsettings.desktop,1 services_applications:garuda-boot-options.desktop,1 services_applications:kwinscripts.desktop,1 services_applications:github-desktop.desktop,2 services_applications:componentchooser.desktop,1 services_applications:powerdevilprofilesconfig.desktop,1 services_applications:vlc.desktop,1 services_applications:kcm_kwin_virtualdesktops.desktop,1 baloosearch_/home/nico/Nextcloud/Notizen/24.10. 0042 Laute Musik und Diskussionen.txt,2 services_applications:screenlocker.desktop,1 services_applications:com.obsproject.Studio.desktop,1 services_applications:visual-studio-code-insiders.desktop,2 services_applications:org.kde.yakuake.desktop,1 services_applications:telegram-desktop.desktop,3 services_applications:kvantummanager.desktop,3 services_applications:org.manjaro.pamac.manager.desktop,1 services_applications:com.github.ronnydo.colorpicker.desktop,1 services_applications:firefox.desktop,1 services_applications:kcm_kscreen.desktop,1 services_applications:designer.desktop,2 services_applications:org.kde.ksysguard.desktop,1 services_applications:garuda-welcome.desktop,1 services_applications:com.github.pulseaudio-equalizer-ladspa.Equalizer.desktop,1 shell_paru,1 services_applications:libreoffice-writer.desktop,1 services_applications:torbrowser.desktop
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=28
+
+[PlasmaViews][Panel 2][Horizontal1600]
+thickness=28
+
+[ScreenConnectors]
+0=eDP-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
