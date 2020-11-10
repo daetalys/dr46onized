@@ -31,10 +31,14 @@ blurEnabled=true
 coverswitchEnabled=true
 cubeslideEnabled=true
 flipswitchEnabled=true
+force-decorations-gtk3Enabled=true
 highlightwindowEnabled=true
 kwin4_effect_squashEnabled=false
 magiclampEnabled=true
+minimizeallEnabled=false
 slideEnabled=false
+synchronizeskipswitcherEnabled=false
+videowallEnabled=false
 wobblywindowsEnabled=true
 
 [TabBox]
@@ -47,6 +51,7 @@ TouchBorderActivate=9
 BorderlessMaximizedWindows=true
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=
+ButtonsOnLeft=XAI
+ButtonsOnRight=H
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Sweet-Dark

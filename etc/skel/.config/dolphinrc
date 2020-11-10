@@ -1,0 +1,11 @@
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+AutoExpandFolders=true
+GlobalViewProps=false
+ShowToolTips=true
+ShowZoomSlider=false
