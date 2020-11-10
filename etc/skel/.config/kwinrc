@@ -1,6 +1,3 @@
-[$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed
-
 [Compositing]
 GLCore=true
 OpenGLIsUnsafe=false
@@ -31,7 +28,6 @@ cubeslideEnabled=true
 flipswitchEnabled=true
 force-decorations-gtk3Enabled=true
 highlightwindowEnabled=true
-kwin4_effect_squashEnabled=false
 magiclampEnabled=true
 minimizeallEnabled=false
 slideEnabled=false

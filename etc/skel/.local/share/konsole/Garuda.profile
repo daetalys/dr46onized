@@ -2,7 +2,7 @@
 ColorScheme=Sweet
 
 [General]
-Name=Profil 1
+Name=Garuda
 Parent=FALLBACK/
 
 [Keyboard]

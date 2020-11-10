@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Apply desktop settings
+Comment=Loads desktop settings at first start
+Icon=variety
+Exec=sh -c "~/.config/autostart-scripts/alacritty-color.sh && rm -rf ~/.config/autostart/apply-settings.desktop"
+Terminal=false
+Type=Application
+ 
