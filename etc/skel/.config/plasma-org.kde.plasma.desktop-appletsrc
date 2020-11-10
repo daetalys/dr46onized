@@ -43,7 +43,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][12][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][2][Applets][21]
 immutability=1
@@ -69,10 +69,8 @@ DialogWidth=720
 
 [Containments][2][Applets][22][Configuration][General]
 buttonSizePercentage=45
-buttons=3|4|5|10|2|9
 containmentType=Plasma
 disabledMaximizedBorders=NoBorders
-hiddenState=EmptySpace
 inactiveStateEnabled=true
 lengthFirstMargin=5
 lengthLastMargin=5
@@ -108,30 +106,6 @@ DialogWidth=720
 [Containments][2][Applets][24][Configuration][General]
 show_lockScreen=false
 
-[Containments][2][Applets][25]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][25][Configuration][General]
-expanding=false
-length=1
-
-[Containments][2][Applets][28]
-immutability=1
-plugin=org.kde.plasma.bigSur-inlineBattery
-
-[Containments][2][Applets][28][Configuration]
-PreloadWeight=90
-
-[Containments][2][Applets][28][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][28][Configuration][General]
-iconHeight=12
-iconWidth=25
-showPercentage=false
-
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
@@ -155,18 +129,6 @@ global=Alt+F1
 [Containments][2][Applets][3][Shortcuts]
 global=Alt+F1
 
-[Containments][2][Applets][4]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][2][Applets][4][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][4][Configuration][General]
-currentDesktopSelected=ShowDesktop
-showWindowIcons=true
-
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.systemtray
@@ -180,7 +142,7 @@ DialogHeight=83
 DialogWidth=1600
 
 [Containments][2][General]
-AppletOrder=3;25;4;23;21;22;28;6;12;24
+AppletOrder=3;22;23;21;6;12;24
 
 [Containments][7]
 activityId=
