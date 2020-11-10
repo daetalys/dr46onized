@@ -22,8 +22,6 @@ zPosition=815
 
 [NightColor]
 Active=true
-LatitudeAuto=50.9324
-LongitudeAuto=6.9174
 NightTemperature=2300
 
 [Plugins]

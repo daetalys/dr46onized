@@ -1,6 +1,9 @@
 [PlasmaThemeExtended]
 outlineWidth=1
 
+[ScreenConnectors]
+10=eDP-1
+
 [UniversalSettings]
 badges3DStyle=true
 canDisableBorders=false

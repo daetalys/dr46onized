@@ -6,7 +6,7 @@ DataCount=1
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
-DataCount=4
+DataCount=2
 Enabled=true
 Name=KMenuEdit
 SystemGroup=1
@@ -67,58 +67,6 @@ TriggersCount=1
 Key=Meta+A
 Type=SHORTCUT
 Uuid={771bcff8-e215-4c77-b0dc-868f69cf0512}
-
-[Data_1_3]
-Comment=Kommentar
-Enabled=true
-Name=Neue Aktion
-Type=SIMPLE_ACTION_DATA
-
-[Data_1_3Actions]
-ActionsCount=1
-
-[Data_1_3Actions0]
-CommandURL=
-Type=MENUENTRY
-
-[Data_1_3Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_1_3Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_1_3Triggers0]
-Key=
-Type=SHORTCUT
-Uuid={441f9f71-4356-463e-a6c1-1fd5229b6815}
-
-[Data_1_4]
-Comment=Kommentar
-Enabled=true
-Name=Neue Aktion
-Type=SIMPLE_ACTION_DATA
-
-[Data_1_4Actions]
-ActionsCount=1
-
-[Data_1_4Actions0]
-CommandURL=
-Type=MENUENTRY
-
-[Data_1_4Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_1_4Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_1_4Triggers0]
-Key=
-Type=SHORTCUT
-Uuid={5a595b89-3961-4bc9-a6c3-2bb6abd6011a}
 
 [Gestures]
 Disabled=true
