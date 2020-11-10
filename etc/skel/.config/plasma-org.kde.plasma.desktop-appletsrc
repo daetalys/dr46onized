@@ -29,6 +29,10 @@ ToolBoxButtonY=28
 FillMode=2
 Image=file:///usr/share/wallpapers/garuda-wallpapers/Ghosts.jpg
 
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/garuda-wallpapers/Ghosts.jpg
+SlidePaths=/usr/share/wallpapers
+
 [Containments][2]
 activityId=
 formfactor=2
