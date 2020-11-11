@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=Qt;System;
+Comment=A quick access utility for various type of actions
+Exec=qwikaccess
+Icon=org.kde.plasma.quicklaunch
+Name=Qwikaccess
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=/usr/bin/qwikaccess
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

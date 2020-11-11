@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=System;Garuda-Setup;
+Comment=Netzwerk-Konfiguration und -Problemlösung
+Exec=lxqt-sudo garuda-network-assistant
+Icon=gnome-network-properties
+Name[de_DE]=Garuda Netzwerkassistent
+Name=Garuda Network Assistant
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
