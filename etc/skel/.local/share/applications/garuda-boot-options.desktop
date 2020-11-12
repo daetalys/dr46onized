@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=GNOME;GTK;System;Garuda-Maintenance
+Comment=Auswahl üblicher Start-Optionen
+Encoding=UTF-8
+Exec=lxqt-sudo garuda-boot-options
+Icon=tuxboot
+Name[de_DE]=Garuda Boot Optionen
+Name=Garuda Boot Options
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

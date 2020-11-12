@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=GTK;Development;
+Comment=Inspect GTK Icon Theme
+Encoding=UTF-8
+Exec=yad-icon-browser
+Icon=redshift-icon-256
+Name=Icon Browser
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
