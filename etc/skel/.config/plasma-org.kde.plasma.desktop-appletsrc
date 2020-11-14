@@ -14,7 +14,7 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=com.github.zren.inactiveblur
+wallpaperplugin=org.kde.image
 
 [Containments][1][ConfigDialog]
 DialogHeight=540
@@ -47,7 +47,11 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][12][Configuration]
-PreloadWeight=80
+PreloadWeight=100
+
+[Containments][2][Applets][12][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][21]
 immutability=1
@@ -123,7 +127,7 @@ DialogWidth=720
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
-icon=garuda
+icon=garuda-welcome
 menuItems=bookmark:t,application:t,computer:t,leave:t,oftenUsed:f,used:f
 systemApplications=systemsettings.desktop
 
@@ -162,7 +166,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][7][Applets][11][Configuration]
 PreloadWeight=42
@@ -176,7 +180,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 
 [Containments][7][Applets][16]
 immutability=1
@@ -196,12 +200,16 @@ plugin=org.kde.kdeconnect
 [Containments][7][Applets][20][Configuration]
 PreloadWeight=55
 
+[Containments][7][Applets][25]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
 [Containments][7][Applets][8]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][8][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][7][Applets][9]
 immutability=1
