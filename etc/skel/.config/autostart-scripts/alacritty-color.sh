@@ -16,4 +16,4 @@ for (i=0;i<Desktops.length;i++) {
 
 killall latte-dock && latte-dock
 
-rm -f ~/.config/autostart-scripts/alacritty-color.sh
+rm -f ~/.config/autostart-scripts/
