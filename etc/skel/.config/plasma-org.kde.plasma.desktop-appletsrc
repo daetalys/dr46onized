@@ -128,7 +128,7 @@ DialogWidth=720
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 icon=garuda-welcome
-menuItems=bookmark:t,application:t,computer:t,leave:t,oftenUsed:f,used:f
+menuItems=application:t,bookmark:t,computer:t,leave:t,oftenUsed:f,used:f
 systemApplications=systemsettings.desktop
 
 [Containments][2][Applets][3][Configuration][Shortcuts]
@@ -151,6 +151,23 @@ DialogWidth=1600
 
 [Containments][2][General]
 AppletOrder=3;22;23;21;6;12;24
+
+[Containments][27]
+activityId=9fb4a3fd-e8c7-4fad-8f4b-e4fa7de099f1
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][27][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][27][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/garuda-wallpapers/Ghosts.jpg
+SlidePaths=/usr/share/wallpapers
 
 [Containments][7]
 activityId=
@@ -204,6 +221,14 @@ PreloadWeight=55
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][7][Applets][26]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][7][Applets][28]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
 [Containments][7][Applets][8]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -223,9 +248,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][7][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,Nextcloud,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.pminhibition
+extraItems=org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,Nextcloud,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.pminhibition,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
 hiddenItems=Nextcloud,org.kde.plasma.volume,org.kde.plasma.pminhibition
-knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.pminhibition
+knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.pminhibition,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
 
 [ScreenMapping]
 itemsOnDisabledScreens=
