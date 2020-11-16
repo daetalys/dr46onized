@@ -27,6 +27,7 @@ coverswitchEnabled=true
 cubeslideEnabled=true
 flipswitchEnabled=true
 force-decorations-gtk3Enabled=true
+forceblurEnabled=true
 highlightwindowEnabled=true
 magiclampEnabled=true
 minimizeallEnabled=false
@@ -34,6 +35,9 @@ slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 wobblywindowsEnabled=true
+
+[Script-forceblur]
+patterns=yakuake\nurxvt\nkeepassxc\nAlacritty
 
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
