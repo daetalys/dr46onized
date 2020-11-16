@@ -54,6 +54,9 @@ var layout = {
                             "icon": "garuda-welcome",
                             "menuItems": "application:t,bookmark:t,computer:t,leave:t,oftenUsed:f,used:f",
                             "systemApplications": "systemsettings.desktop,org.kde.kinfocenter.desktop"
+                        },
+                        "/Shortcuts": {
+                            "global": "Alt+F1"
                         }
                     },
                     "plugin": "org.kde.plasma.kickoff"
