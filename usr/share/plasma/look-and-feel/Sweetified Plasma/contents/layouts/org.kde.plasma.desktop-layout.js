@@ -106,7 +106,7 @@ var layout = {
                         "/Configuration/General": {
                             "buttonSizePercentage": "45",
                             "containmentType": "Plasma",
-                            "disabledMaximizedBorders": "ShowBorders",
+                            "disabledMaximizedBorders": "NoBorders",
                             "inactiveStateEnabled": "true",
                             "lengthFirstMargin": "5",
                             "lengthLastMargin": "5",
@@ -167,6 +167,10 @@ var layout = {
                         },
                         "/Configuration": {
                             "immutability": "1"
+                        },
+                        "/Configuration/ConfigDialog": {
+                            "DialogHeight": "540",
+                            "DialogWidth": "720"
                         },
                         "/Configuration/Configuration": {
                             "immutability": "1"
