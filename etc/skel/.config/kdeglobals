@@ -141,7 +141,7 @@ Theme=BeautyLine
 
 [KDE]
 ColorScheme=Sweet
-LookAndFeelPackage=Sweet
+LookAndFeelPackage=Sweetified Plasma
 ShowDeleteCommand=false
 contrast=4
 widgetStyle=kvantum
