@@ -206,7 +206,7 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
-                            "PreloadWeight": "60",
+                            "PreloadWeight": "85",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration": {
@@ -225,6 +225,7 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
+                            "PreloadWeight": "55",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration": {
