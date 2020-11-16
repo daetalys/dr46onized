@@ -106,7 +106,6 @@ var layout = {
                         "/Configuration/General": {
                             "buttonSizePercentage": "45",
                             "containmentType": "Plasma",
-                            "disabledMaximizedBorders": "NoBorders",
                             "inactiveStateEnabled": "true",
                             "lengthFirstMargin": "5",
                             "lengthLastMargin": "5",
