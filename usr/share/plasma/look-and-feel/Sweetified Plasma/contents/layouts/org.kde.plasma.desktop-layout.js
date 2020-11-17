@@ -7,19 +7,20 @@ var layout = {
             ],
             "config": {
                 "/": {
+                    "ItemGeometriesHorizontal": "",
                     "formfactor": "0",
                     "immutability": "1",
                     "lastScreen": "0",
                     "wallpaperplugin": "com.github.zren.inactiveblur"
                 },
                 "/ConfigDialog": {
-                    "DialogHeight": "540",
-                    "DialogWidth": "720"
+                    "DialogHeight": "836",
+                    "DialogWidth": "1600"
                 },
                 "/General": {
                     "ToolBoxButtonState": "topcenter",
                     "ToolBoxButtonX": "429",
-                    "ToolBoxButtonY": "28"
+                    "ToolBoxButtonY": "24"
                 },
                 "/Wallpaper/com.github.zren.inactiveblur/General": {
                     "FillMode": "2",
@@ -36,281 +37,22 @@ var layout = {
     ],
     "panels": [
         {
-            "alignment": "center",
+            "alignment": "left",
             "applets": [
                 {
                     "config": {
                         "/": {
                             "immutability": "1"
                         },
-                        "/Configuration": {
-                            "PreloadWeight": "100"
-                        },
                         "/Configuration/ConfigDialog": {
                             "DialogHeight": "540",
                             "DialogWidth": "720"
                         },
                         "/Configuration/General": {
-                            "alphaSort": "true",
-                            "customButtonImage": "garuda-welcome",
-                            "favoritesPortedToKAstats": "true",
-                            "recentOrdering": "1",
-                            "useCustomButtonImage": "true"
-                        },
-                        "/Shortcuts": {
-                            "global": "Alt+F1"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.kicker"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/Configuration/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/Configuration/Configuration/Configuration/Configuration/General": {
-                            "buttonSizePercentage": "45",
-                            "containmentType": "Plasma",
-                            "disabledMaximizedBorders": "NoBorders",
-                            "inactiveStateEnabled": "true",
-                            "lengthFirstMargin": "5",
-                            "lengthLastMargin": "5",
-                            "selectedPlugin": "",
-                            "spacing": "6",
-                            "useDecorationMetrics": "false",
-                            "visibility": "ActiveMaximizedWindow"
-                        },
-                        "/Configuration/Configuration/Configuration/General": {
-                            "buttonSizePercentage": "45",
-                            "containmentType": "Plasma",
-                            "disabledMaximizedBorders": "NoBorders",
-                            "inactiveStateEnabled": "true",
-                            "lengthFirstMargin": "5",
-                            "lengthLastMargin": "5",
-                            "selectedPlugin": "",
-                            "spacing": "6",
-                            "useDecorationMetrics": "false"
-                            "visibility": "ActiveMaximizedWindow"
-                        },
-                        "/Configuration/Configuration/General": {
-                            "buttonSizePercentage": "45",
-                            "containmentType": "Plasma",
-                            "inactiveStateEnabled": "true",
-                            "lengthFirstMargin": "5",
-                            "lengthLastMargin": "5",
-                            "selectedPlugin": "",
-                            "spacing": "6",
-                            "useDecorationMetrics": "false",
-                            "visibility": "ActiveMaximizedWindow"
-                        },
-                        "/Configuration/General": {
-                            "buttonSizePercentage": "45",
-                            "containmentType": "Plasma",
-                            "disabledMaximizedBorders": "NoBorders",
-                            "inactiveStateEnabled": "true",
-                            "lengthFirstMargin": "5",
-                            "lengthLastMargin": "5",
-                            "selectedPlugin": "",
-                            "spacing": "6",
-                            "useDecorationMetrics": "false",
-                            "visibility": "ActiveMaximizedWindow"
-                        }
-                    },
-                    "plugin": "org.kde.windowbuttons"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/Configuration/Configuration/Configuration/Configuration/General": {
-                            "containmentType": "Plasma",
-                            "filterActivityInfo": "false",
-                            "lengthFirstMargin": "4",
-                            "lengthLastMargin": "4",
-                            "placeHolder": "KDE Plasma - Garuda Linux 🐲",
-                            "showIcon": "false"
-                        },
-                        "/Configuration/Configuration/Configuration/General": {
-                            "containmentType": "Plasma",
-                            "filterActivityInfo": "false",
-                            "lengthFirstMargin": "4",
-                            "lengthLastMargin": "4",
-                            "placeHolder": "KDE Plasma - Garuda Linux 🐲",
-                            "showIcon": "false"
-                        },
-                        "/Configuration/Configuration/General": {
-                            "containmentType": "Plasma",
-                            "filterActivityInfo": "false",
-                            "lengthFirstMargin": "4",
-                            "lengthLastMargin": "4",
-                            "placeHolder": "KDE Plasma - Garuda Linux 🐲",
-                            "showIcon": "false"
-                        },
-                        "/Configuration/General": {
-                            "containmentType": "Plasma",
-                            "filterActivityInfo": "false",
-                            "lengthFirstMargin": "4",
-                            "lengthLastMargin": "4",
-                            "placeHolder": "KDE Plasma - Garuda Linux 🐲",
-                            "showIcon": "false"
-                        }
-                    },
-                    "plugin": "org.kde.windowtitle"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/Configuration/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/Configuration/Configuration/Configuration/Configuration/General": {
-                            "containmentType": "Plasma",
-                            "fillWidth": "true",
-                            "toggleMaximizedOnDoubleClick": "true",
-                            "toggleMaximizedOnMouseWheel": "true"
-                        },
-                        "/Configuration/Configuration/Configuration/General": {
-                            "containmentType": "Plasma",
-                            "fillWidth": "true",
-                            "toggleMaximizedOnDoubleClick": "true",
-                            "toggleMaximizedOnMouseWheel": "true"
-                        },
-                        "/Configuration/Configuration/General": {
-                            "containmentType": "Plasma",
-                            "fillWidth": "true",
-                            "toggleMaximizedOnDoubleClick": "true",
-                            "toggleMaximizedOnMouseWheel": "true"
-                        },
-                        "/Configuration/General": {
-                            "containmentType": "Plasma",
-                            "fillWidth": "true",
-                            "toggleMaximizedOnDoubleClick": "true",
-                            "toggleMaximizedOnMouseWheel": "true"
+                            "containmentType": "Plasma"
                         }
                     },
                     "plugin": "org.kde.windowappmenu"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "PreloadWeight": "65",
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
-                            "PreloadWeight": "100",
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration": {
-                            "PreloadWeight": "55",
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration/Configuration": {
-                            "PreloadWeight": "100"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.systemtray"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Appearance": {
-                            "showDate": "false"
-                        },
-                        "/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.digitalclock"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/Configuration/Configuration/Configuration/Configuration/General": {
-                            "show_lockScreen": "false"
-                        },
-                        "/Configuration/Configuration/Configuration/General": {
-                            "show_lockScreen": "false"
-                        },
-                        "/Configuration/Configuration/General": {
-                            "show_lockScreen": "false"
-                        },
-                        "/Configuration/General": {
-                            "show_lockScreen": "false"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.lock_logout"
                 }
             ],
             "config": {
@@ -319,15 +61,11 @@ var layout = {
                     "immutability": "1",
                     "lastScreen": "0",
                     "wallpaperplugin": "org.kde.image"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "83",
-                    "DialogWidth": "1600"
                 }
             },
-            "height": 1.5555555555555556,
+            "height": 2,
             "hiding": "normal",
-            "location": "top",
+            "location": "bottom",
             "maximumLength": 88.88888888888889,
             "minimumLength": 88.88888888888889,
             "offset": 0

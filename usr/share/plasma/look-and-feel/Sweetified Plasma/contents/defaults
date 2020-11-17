@@ -5,7 +5,7 @@ cursorTheme=Sweet-cursors
 ColorScheme=Sweet
 
 [kdeglobals][KDE]
-widgetStyle=kvantum
+widgetStyle=kvantum-dark
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
