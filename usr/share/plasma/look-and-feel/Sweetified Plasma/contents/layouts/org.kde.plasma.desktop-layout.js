@@ -16,21 +16,19 @@ var layout = {
                     "DialogHeight": "540",
                     "DialogWidth": "720"
                 },
-                "/Configuration": {
-                    "PreloadWeight": "42"
-                },
                 "/General": {
-                    "positions": "2,12,desktop:/Home.desktop,1,1,desktop:/trash.desktop,1,2",
-                    "showToolbox": "false",
-                    "sortMode": "-1"
+                    "ToolBoxButtonState": "topcenter",
+                    "ToolBoxButtonX": "720",
+                    "ToolBoxButtonY": "24"
                 },
                 "/Wallpaper/com.github.zren.inactiveblur/General": {
                     "FillMode": "2",
                     "Image": "file:///usr/share/wallpapers/garuda-wallpapers/Ghosts.jpg",
                     "SlidePaths": "/usr/share/wallpapers"
-                },    
+                },
                 "/Wallpaper/org.kde.image/General": {
-                    "Image": "file:///usr/share/wallpapers/garuda-wallpapers/background.jpg"
+                    "Image": "file:///usr/share/wallpapers/garuda-wallpapers/Ghosts.jpg",
+                    "SlidePaths": "/usr/share/wallpapers"
                 }
             },
             "wallpaperPlugin": "com.github.zren.inactiveblur"

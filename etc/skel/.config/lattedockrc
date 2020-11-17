@@ -4,7 +4,7 @@ outlineWidth=1
 [UniversalSettings]
 badges3DStyle=false
 canDisableBorders=true
-currentLayout=Garuda Sweetified
+currentLayout=Garuda
 inAdvancedModeForEditSettings=true
 lastNonAssignedLayout=Garuda
 launchers=
@@ -13,5 +13,5 @@ metaPressAndHoldEnabled=false
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
-singleModeLayoutName=Garuda Sweetified
+singleModeLayoutName=Garuda
 version=2

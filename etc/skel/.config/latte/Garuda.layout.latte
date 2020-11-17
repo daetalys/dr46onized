@@ -66,7 +66,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][12][Applets][69][Configuration]
-PreloadWeight=42
+PreloadWeight=18
 
 [Containments][12][ConfigDialog]
 DialogHeight=540
@@ -119,33 +119,12 @@ maximumLength=340
 placeHolder=Garuda KDE Plasma
 showIcon=false
 
-[Containments][13][Applets][57]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][13][Applets][57][Configuration]
-PreloadWeight=86
-
-[Containments][13][Applets][57][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][13][Applets][57][Configuration][General]
-favorites=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop,org.kde.discover.desktop
-favoritesPortedToKAstats=true
-icon=garuda-welcome
-menuItems=bookmark:t,application:t,computer:t,leave:t,oftenUsed:f,used:f
-systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
-
-[Containments][13][Applets][57][Shortcuts]
-global=Alt+F1
-
 [Containments][13][Applets][58]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][13][Applets][58][Configuration]
-PreloadWeight=58
+PreloadWeight=34
 SystrayContainmentId=12
 
 [Containments][13][Applets][65]
@@ -153,7 +132,7 @@ immutability=1
 plugin=org.kde.windowappmenu
 
 [Containments][13][Applets][65][Configuration]
-PreloadWeight=20
+PreloadWeight=0
 
 [Containments][13][Applets][65][Configuration][ConfigDialog]
 DialogHeight=540
@@ -173,7 +152,7 @@ immutability=1
 plugin=org.kde.windowbuttons
 
 [Containments][13][Applets][66][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][13][Applets][66][Configuration][ConfigDialog]
 DialogHeight=540
@@ -193,7 +172,7 @@ immutability=1
 plugin=org.kde.plasma.lock_logout
 
 [Containments][13][Applets][67][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][13][Applets][67][Configuration][ConfigDialog]
 DialogHeight=540
@@ -207,7 +186,29 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][13][Applets][68][Configuration]
-PreloadWeight=20
+PreloadWeight=0
+
+[Containments][13][Applets][70]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][13][Applets][70][Configuration]
+PreloadWeight=92
+
+[Containments][13][Applets][70][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][13][Applets][70][Configuration][General]
+alphaSort=true
+customButtonImage=garuda-welcome
+favoritesPortedToKAstats=true
+limitDepth=true
+recentOrdering=1
+useCustomButtonImage=true
+
+[Containments][13][Applets][70][Shortcuts]
+global=Alt+F1
 
 [Containments][13][ConfigDialog]
 DialogHeight=600
@@ -220,16 +221,15 @@ PreloadWeight=0
 advanced=false
 alignment=10
 alignmentUpgraded=true
-appletOrder=57;66;56;65;58;68;67
+appletOrder=70;66;56;65;58;68;67
 autoDecreaseIconSize=false
-backgroundOnlyOnMaximized=true
 disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
 durationTime=x3
 iconSize=24
 panelPosition=10
 panelSize=100
-panelTransparency=40
+panelTransparency=80
 plasmaBackgroundForPopups=true
 proportionIconSize=3
 shadowColor=55007f
@@ -237,7 +237,6 @@ shadowOpacity=55
 shadowSize=60
 shadowsUpgraded=true
 shrinkThickMargins=true
-solidBackgroundForMaximized=true
 splitterPosition=4
 splitterPosition2=5
 tasksUpgraded=true
@@ -283,7 +282,7 @@ PreloadWeight=0
 [Containments][14][Applets][61][Configuration][General]
 infoBadgeProminentColorEnabled=true
 isInLatteDock=true
-launchers59=applications:garuda-welcome.desktop,applications:telegram-desktop.desktop,applications:Alacritty.desktop,applications:firefox.desktop,applications:chromium.desktop,applications:org.kde.dolphin.desktop,applications:github-desktop.desktop,applications:visual-studio-code-insiders.desktop,applications:virtualbox.desktop,file:///usr/bin/pamac-manager?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFDklEQVRoge2YW4hVVRjHf98-W8eRrCbK26hhxSBEUBC9VGJKKEhQOYEWQYFgYIEixNBtGJLpAj5EUvlW-GBpDgQWvoRPvfXgS4iXnMhmxjBnylE7ntlrfT2cM3vW2mft4zlnppkT9IfDYa_1rW99t_-6wf-YW8hMKNEDOo-LbEJYVt8ARljKcdkhE9Ode9oO6F5daRK-FnikwaEnI2WL9Mn56cw_LQcm3tEngC-BxU2qGEV4YV6fHG_WhqYc0F6NEstbCr1AVGm-LvAuyo83mfFhhbeBhZUWK9AXR-yVPrGN2tKwA9qjHTcKHAQ2e4qUnrZ--aAeHTfe1B6F9zLN37YZXpT3ZawRexpy4Oob-mCkHAXuCXQfVmHXhKVYS8e8iAWifAQ8F-g-b4Utt_TLyXptqtuB8R5dL3AMaK93TJP4WyM2L-qXE_UIx_VqVcs2_feNB2jH8jwwsw5YTck6ie-Bn4EuYJ0rijKAMOpJK3cgPAuenhPAWeA-YL3Tnp0rF41kAJ36PNexjycFUe3VaOwq54G7AQQGOvZJqL4Z26NHFLorn7907GODIKqojO3hTMWRhohZt6dGwU79RgVRAOkTa5VRp-9yng6rXHbkxlIdiLo6jOZpqEb9JeSs0Fn91pCGrdbciXWimxE0trlNqf4SUiLNsc4olVgCNexQQ6Q5jmZKtG5fPAcuva6Lro9XOxUXWGINa3PVqjf5ut92apexXPJ0zGextayTnCBkgrN26FVdkxh-z8otXERy14cy7jmgvRoN_8F3pWtsjEOsULCVf6gOj1tCQJfA6So9SXl4amfGkUwG7gVOhWwpXYOhnXp8-Z1slj6xMcDwCCtszMaA6WFkPHCdaxamMR2bhkdYAfwaA5Qiosg_Rl0EjqFl2xBup7z8BVct6481CkdEueK1RtyG0g0UgjqM_4lwBMtflfkj4ClgyaRAEpVtSevd-t7vWn1AvnIbBnfoAPBMcHJ_7NHVB2RbSG5whx4mfAbK6vhm9Wey1Rv7im5FOZQ2VKogjai1Uz8sf1ZNYBlzZDrPvqZtABd2a7u1LHf6ck-T1jKayhmWXdit7QCDL-kCa-msqcN486eIAYpFiJ3E2kChZMqkk-ucObddzxSvsAYntbXWvwxRlxavcPrcdj2dKF1YOmsMJYEK2cooTTgOgJ9Cm1QrMEopY9wqlFWBuUp5Rhit6luJsjIrpwEdSQJRIDpTDrgRDggaw_5IeADyL-4CQwKf5PZP8GkS8ZAIy_NkgBGr7A912MB9LXXA3UjEVAve_4X8BDxWY-KbouugnAIeb2pwAuqUtlSCHM5AC8KAx4FChbNlEgMFlwMz8lo0s0iAyLFx8kGpnIFieOVpKRgvAUzevIOrkLZgBgzeiTddZ4IcyDsxzikSv7QLLomLQMG9sLRgBhLAffaacEkMfgk1_j42CzDhxSVM4hbMQHYZlVokDm3ZrQDXxsmjW8qB2PEuacESShK_MIpVO7HLgf9ABqh1lMh7fZhLJEkmsBXOBkncshlwghy5JC4CsRv1FuSA8V8-0gtDsIRadhUK3FnCN7LAfWCukST4byI1STw7NjUEg39CiFwSZy_1LUtiJ7Kl7E6s7jY9WxY1AhOujGAJWZ16JmkVGMNS75Rci8TAxwNr9WmUwAPLHECIDWwgcFqIASwk6q_9t5LzjDgnCNSOROXgSrlf5fCjfC6wFZg_q8Y1jpLAoe4feFkQ_QfAoiYOuhV1cQAAAABJRU5ErkJggg%3D%3D
+launchers59=applications:garuda-welcome.desktop,applications:telegram-desktop.desktop,applications:Alacritty.desktop,applications:firefox.desktop,applications:chromium.desktop,applications:org.kde.dolphin.desktop,applications:github-desktop.desktop,applications:visual-studio-code-insiders.desktop,applications:virtualbox.desktop
 manualScrollTasksType=Disabled
 
 [Containments][14][ConfigDialog]
@@ -329,6 +328,6 @@ disableBordersForMaximizedWindows=true
 icon=garuda-welcome
 lastUsedActivity=9fb4a3fd-e8c7-4fad-8f4b-e4fa7de099f1
 launchers=
-preferredForShortcutsTouched=false
+preferredForShortcutsTouched=true
 showInMenu=true
 version=2
