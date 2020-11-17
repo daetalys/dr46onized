@@ -4,6 +4,9 @@ cursorTheme=Sweet-cursors
 [kdeglobals][General]
 ColorScheme=Sweet
 
+[kdeglobals][Icons]
+Theme=BeautyLine
+
 [kdeglobals][KDE]
 widgetStyle=kvantum-dark
 
