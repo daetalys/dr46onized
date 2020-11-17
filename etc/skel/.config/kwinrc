@@ -17,6 +17,9 @@ NoiseStrength=0
 TabBox=true
 zPosition=815
 
+[ModifierOnlyShortcuts]
+Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
+
 [NightColor]
 Active=true
 NightTemperature=2300
@@ -28,7 +31,11 @@ cubeslideEnabled=true
 flipswitchEnabled=true
 force-decorations-gtk3Enabled=true
 forceblurEnabled=true
+hide-titlesEnabled=false
 highlightwindowEnabled=true
+kwin4_effect_fadeEnabled=false
+kwin4_effect_scaleEnabled=true
+kwin4_effect_squashEnabled=false
 magiclampEnabled=true
 minimizeallEnabled=false
 slideEnabled=false
@@ -37,7 +44,7 @@ videowallEnabled=false
 wobblywindowsEnabled=true
 
 [Script-forceblur]
-patterns=yakuake\nurxvt\nkeepassxc\nAlacritty
+patterns=yakuake\nurxvt\nkeepassxc\nAlacritty\nSpotify
 
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
