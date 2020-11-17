@@ -23,7 +23,8 @@ var layout = {
                 },
                 "/Wallpaper/com.github.zren.inactiveblur/General": {
                     "FillMode": "2",
-                    "Image": "file:///usr/share/wallpapers/garuda-wallpapers/Ghosts.jpg"
+                    "Image": "file:///usr/share/wallpapers/garuda-wallpapers/Ghosts.jpg",
+                    "SlidePaths": "/usr/share/wallpapers"
                 },
                 "/Wallpaper/org.kde.image/General": {
                     "Image": "file:///usr/share/wallpapers/garuda-wallpapers/Ghosts.jpg",
@@ -35,7 +36,7 @@ var layout = {
     ],
     "panels": [
         {
-            "alignment": "left",
+            "alignment": "center",
             "applets": [
                 {
                     "config": {
@@ -50,16 +51,17 @@ var layout = {
                             "DialogWidth": "720"
                         },
                         "/Configuration/General": {
+                            "alphaSort": "true",
+                            "customButtonImage": "garuda-welcome",
                             "favoritesPortedToKAstats": "true",
-                            "icon": "garuda-welcome",
-                            "menuItems": "application:t,bookmark:t,computer:t,leave:t,oftenUsed:f,used:f",
-                            "systemApplications": "systemsettings.desktop,org.kde.kinfocenter.desktop"
+                            "recentOrdering": "1",
+                            "useCustomButtonImage": "true"
                         },
                         "/Shortcuts": {
                             "global": "Alt+F1"
                         }
                     },
-                    "plugin": "org.kde.plasma.kickoff"
+                    "plugin": "org.kde.plasma.kicker"
                 },
                 {
                     "config": {
@@ -76,11 +78,18 @@ var layout = {
                         "/Configuration/Configuration": {
                             "immutability": "1"
                         },
-                        "/Configuration/Configuration/Configuration/ConfigDialog": {
+                        "/Configuration/Configuration/ConfigDialog": {
                             "DialogHeight": "540",
                             "DialogWidth": "720"
                         },
-                        "/Configuration/Configuration/Configuration/General": {
+                        "/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
+                            "DialogHeight": "540",
+                            "DialogWidth": "720"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/General": {
                             "buttonSizePercentage": "45",
                             "containmentType": "Plasma",
                             "disabledMaximizedBorders": "NoBorders",
@@ -92,20 +101,33 @@ var layout = {
                             "useDecorationMetrics": "false",
                             "visibility": "ActiveMaximizedWindow"
                         },
-                        "/Configuration/Configuration/General": {
+                        "/Configuration/Configuration/Configuration/General": {
                             "buttonSizePercentage": "45",
                             "containmentType": "Plasma",
-                            "disabledMaximizedBorders": "ShowBorders",
+                            "disabledMaximizedBorders": "NoBorders",
                             "inactiveStateEnabled": "true",
                             "lengthFirstMargin": "5",
                             "lengthLastMargin": "5",
                             "selectedPlugin": "",
                             "spacing": "6",
                             "useDecorationMetrics": "false"
+                            "visibility": "ActiveMaximizedWindow"
+                        },
+                        "/Configuration/Configuration/General": {
+                            "buttonSizePercentage": "45",
+                            "containmentType": "Plasma",
+                            "inactiveStateEnabled": "true",
+                            "lengthFirstMargin": "5",
+                            "lengthLastMargin": "5",
+                            "selectedPlugin": "",
+                            "spacing": "6",
+                            "useDecorationMetrics": "false",
+                            "visibility": "ActiveMaximizedWindow"
                         },
                         "/Configuration/General": {
                             "buttonSizePercentage": "45",
                             "containmentType": "Plasma",
+                            "disabledMaximizedBorders": "NoBorders",
                             "inactiveStateEnabled": "true",
                             "lengthFirstMargin": "5",
                             "lengthLastMargin": "5",
@@ -128,9 +150,20 @@ var layout = {
                         "/Configuration/Configuration": {
                             "immutability": "1"
                         },
-                        "/Configuration/Configuration/Configuration/ConfigDialog": {
+                        "/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
                             "DialogHeight": "540",
                             "DialogWidth": "720"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/General": {
+                            "containmentType": "Plasma",
+                            "filterActivityInfo": "false",
+                            "lengthFirstMargin": "4",
+                            "lengthLastMargin": "4",
+                            "placeHolder": "KDE Plasma - Garuda Linux 🐲",
+                            "showIcon": "false"
                         },
                         "/Configuration/Configuration/Configuration/General": {
                             "containmentType": "Plasma",
@@ -167,16 +200,25 @@ var layout = {
                         "/Configuration": {
                             "immutability": "1"
                         },
-                        "/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
                         "/Configuration/Configuration": {
                             "immutability": "1"
                         },
-                        "/Configuration/Configuration/Configuration/ConfigDialog": {
+                        "/Configuration/Configuration/ConfigDialog": {
                             "DialogHeight": "540",
                             "DialogWidth": "720"
+                        },
+                        "/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
+                            "DialogHeight": "540",
+                            "DialogWidth": "720"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/General": {
+                            "containmentType": "Plasma",
+                            "fillWidth": "true",
+                            "toggleMaximizedOnDoubleClick": "true",
+                            "toggleMaximizedOnMouseWheel": "true"
                         },
                         "/Configuration/Configuration/Configuration/General": {
                             "containmentType": "Plasma",
@@ -205,14 +247,18 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
-                            "PreloadWeight": "100",
+                            "PreloadWeight": "65",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration": {
-                            "PreloadWeight": "55",
+                            "PreloadWeight": "100",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration": {
+                            "PreloadWeight": "55",
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration": {
                             "PreloadWeight": "100"
                         }
                     },
@@ -223,17 +269,10 @@ var layout = {
                         "/": {
                             "immutability": "1"
                         },
-                        "/Configuration": {
-                            "PreloadWeight": "60",
-                            "immutability": "1"
+                        "/Configuration/Appearance": {
+                            "showDate": "false"
                         },
-                        "/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration": {
-                            "PreloadWeight": "100"
-                        },
-                        "/Configuration/Configuration/Configuration/ConfigDialog": {
+                        "/Configuration/ConfigDialog": {
                             "DialogHeight": "540",
                             "DialogWidth": "720"
                         }
@@ -251,9 +290,15 @@ var layout = {
                         "/Configuration/Configuration": {
                             "immutability": "1"
                         },
-                        "/Configuration/Configuration/Configuration/ConfigDialog": {
+                        "/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
                             "DialogHeight": "540",
                             "DialogWidth": "720"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/General": {
+                            "show_lockScreen": "false"
                         },
                         "/Configuration/Configuration/Configuration/General": {
                             "show_lockScreen": "false"
