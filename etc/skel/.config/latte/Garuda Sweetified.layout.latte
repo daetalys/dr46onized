@@ -2,7 +2,7 @@
 RightButton;NoModifier=org.kde.latte.contextmenu
 
 [Containments][12]
-PreloadWeight=10
+PreloadWeight=0
 activityId=
 formfactor=2
 immutability=1
@@ -17,86 +17,64 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][12][Applets][42][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][12][Applets][43]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][12][Applets][43][Configuration]
-PreloadWeight=10
-
-[Containments][12][Applets][44]
-immutability=1
-plugin=org.kde.plasma.printmanager
-
-[Containments][12][Applets][45]
-immutability=1
-plugin=org.kde.ktp-contactlist
-
-[Containments][12][Applets][46]
-immutability=1
-plugin=org.kde.discovernotifier
+PreloadWeight=0
 
 [Containments][12][Applets][47]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][12][Applets][47][Configuration]
-PreloadWeight=10
-
-[Containments][12][Applets][48]
-immutability=1
-plugin=org.kde.plasma.nightcolorcontrol
-
-[Containments][12][Applets][48][Configuration]
-PreloadWeight=10
-
-[Containments][12][Applets][49]
-immutability=1
-plugin=org.kde.plasma.battery
-
-[Containments][12][Applets][49][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][12][Applets][50]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][12][Applets][50][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][12][Applets][51]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][12][Applets][51][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][12][Applets][52]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][12][Applets][52][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][12][Applets][53]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][12][Applets][53][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
-[Containments][12][Applets][54]
+[Containments][12][Applets][69]
 immutability=1
-plugin=org.kde.plasma.pkupdates
+plugin=org.kde.plasma.battery
 
-[Containments][12][Applets][55]
-immutability=1
-plugin=org.kde.plasma.bluetooth
+[Containments][12][Applets][69][Configuration]
+PreloadWeight=42
+
+[Containments][12][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][12][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.ktp-contactlist,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
+extraItems=org.kde.plasma.networkmanagement,org.kde.ktp-contactlist,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,Nextcloud
+hiddenItems=Nextcloud,org.kde.plasma.volume,org.kde.plasma.clipboard
 knownItems=org.kde.plasma.networkmanagement,org.kde.ktp-contactlist,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
 
 [Containments][13]
@@ -125,7 +103,7 @@ immutability=1
 plugin=org.kde.windowtitle
 
 [Containments][13][Applets][56][Configuration]
-PreloadWeight=23
+PreloadWeight=0
 
 [Containments][13][Applets][56][Configuration][ConfigDialog]
 DialogHeight=540
@@ -146,7 +124,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][13][Applets][57][Configuration]
-PreloadWeight=100
+PreloadWeight=86
 
 [Containments][13][Applets][57][Configuration][ConfigDialog]
 DialogHeight=540
@@ -167,12 +145,15 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][13][Applets][58][Configuration]
-PreloadWeight=83
+PreloadWeight=58
 SystrayContainmentId=12
 
 [Containments][13][Applets][65]
 immutability=1
 plugin=org.kde.windowappmenu
+
+[Containments][13][Applets][65][Configuration]
+PreloadWeight=20
 
 [Containments][13][Applets][65][Configuration][ConfigDialog]
 DialogHeight=540
@@ -180,13 +161,19 @@ DialogWidth=720
 
 [Containments][13][Applets][65][Configuration][General]
 containmentType=Latte
-spacing=8
+spacing=10
 supportsActiveWindowSchemes=true
 windowTitleIsPresent=true
+
+[Containments][13][Applets][65][Shortcuts]
+global=
 
 [Containments][13][Applets][66]
 immutability=1
 plugin=org.kde.windowbuttons
+
+[Containments][13][Applets][66][Configuration]
+PreloadWeight=10
 
 [Containments][13][Applets][66][Configuration][ConfigDialog]
 DialogHeight=540
@@ -205,6 +192,9 @@ visibility=ActiveMaximizedWindow
 immutability=1
 plugin=org.kde.plasma.lock_logout
 
+[Containments][13][Applets][67][Configuration]
+PreloadWeight=15
+
 [Containments][13][Applets][67][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -217,14 +207,14 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][13][Applets][68][Configuration]
-PreloadWeight=60
+PreloadWeight=20
 
 [Containments][13][ConfigDialog]
 DialogHeight=600
 DialogWidth=586
 
 [Containments][13][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][13][General]
 advanced=false
@@ -232,13 +222,14 @@ alignment=10
 alignmentUpgraded=true
 appletOrder=57;66;56;65;58;68;67
 autoDecreaseIconSize=false
+backgroundOnlyOnMaximized=true
+disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
 durationTime=x3
 iconSize=24
-inConfigureAppletsMode=true
 panelPosition=10
 panelSize=100
-panelTransparency=60
+panelTransparency=40
 plasmaBackgroundForPopups=true
 proportionIconSize=3
 shadowColor=55007f
@@ -246,6 +237,7 @@ shadowOpacity=55
 shadowSize=60
 shadowsUpgraded=true
 shrinkThickMargins=true
+solidBackgroundForMaximized=true
 splitterPosition=4
 splitterPosition2=5
 tasksUpgraded=true
@@ -258,7 +250,7 @@ type=org.kde.latte.plasma
 
 [Containments][13][Indicator][org.kde.latte.plasma][General]
 clickedAnimationEnabled=true
-reversed=true
+lengthPadding=0.1
 
 [Containments][14]
 activityId=
@@ -286,19 +278,20 @@ immutability=1
 plugin=org.kde.latte.plasmoid
 
 [Containments][14][Applets][61][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][14][Applets][61][Configuration][General]
 infoBadgeProminentColorEnabled=true
 isInLatteDock=true
-launchers59=applications:garuda-welcome.desktop,applications:telegram-desktop.desktop,applications:org.kde.konsole.desktop,applications:Alacritty.desktop,applications:firefox.desktop,applications:org.kde.dolphin.desktop,applications:timeshift-gtk.desktop
+launchers59=applications:garuda-welcome.desktop,applications:telegram-desktop.desktop,applications:Alacritty.desktop,applications:firefox.desktop,applications:chromium.desktop,applications:org.kde.dolphin.desktop,applications:github-desktop.desktop,applications:visual-studio-code-insiders.desktop,applications:virtualbox.desktop,file:///usr/bin/pamac-manager?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFDklEQVRoge2YW4hVVRjHf98-W8eRrCbK26hhxSBEUBC9VGJKKEhQOYEWQYFgYIEixNBtGJLpAj5EUvlW-GBpDgQWvoRPvfXgS4iXnMhmxjBnylE7ntlrfT2cM3vW2mft4zlnppkT9IfDYa_1rW99t_-6wf-YW8hMKNEDOo-LbEJYVt8ARljKcdkhE9Ode9oO6F5daRK-FnikwaEnI2WL9Mn56cw_LQcm3tEngC-BxU2qGEV4YV6fHG_WhqYc0F6NEstbCr1AVGm-LvAuyo83mfFhhbeBhZUWK9AXR-yVPrGN2tKwA9qjHTcKHAQ2e4qUnrZ--aAeHTfe1B6F9zLN37YZXpT3ZawRexpy4Oob-mCkHAXuCXQfVmHXhKVYS8e8iAWifAQ8F-g-b4Utt_TLyXptqtuB8R5dL3AMaK93TJP4WyM2L-qXE_UIx_VqVcs2_feNB2jH8jwwsw5YTck6ie-Bn4EuYJ0rijKAMOpJK3cgPAuenhPAWeA-YL3Tnp0rF41kAJ36PNexjycFUe3VaOwq54G7AQQGOvZJqL4Z26NHFLorn7907GODIKqojO3hTMWRhohZt6dGwU79RgVRAOkTa5VRp-9yng6rXHbkxlIdiLo6jOZpqEb9JeSs0Fn91pCGrdbciXWimxE0trlNqf4SUiLNsc4olVgCNexQQ6Q5jmZKtG5fPAcuva6Lro9XOxUXWGINa3PVqjf5ut92apexXPJ0zGextayTnCBkgrN26FVdkxh-z8otXERy14cy7jmgvRoN_8F3pWtsjEOsULCVf6gOj1tCQJfA6So9SXl4amfGkUwG7gVOhWwpXYOhnXp8-Z1slj6xMcDwCCtszMaA6WFkPHCdaxamMR2bhkdYAfwaA5Qiosg_Rl0EjqFl2xBup7z8BVct6481CkdEueK1RtyG0g0UgjqM_4lwBMtflfkj4ClgyaRAEpVtSevd-t7vWn1AvnIbBnfoAPBMcHJ_7NHVB2RbSG5whx4mfAbK6vhm9Wey1Rv7im5FOZQ2VKogjai1Uz8sf1ZNYBlzZDrPvqZtABd2a7u1LHf6ck-T1jKayhmWXdit7QCDL-kCa-msqcN486eIAYpFiJ3E2kChZMqkk-ucObddzxSvsAYntbXWvwxRlxavcPrcdj2dKF1YOmsMJYEK2cooTTgOgJ9Cm1QrMEopY9wqlFWBuUp5Rhit6luJsjIrpwEdSQJRIDpTDrgRDggaw_5IeADyL-4CQwKf5PZP8GkS8ZAIy_NkgBGr7A912MB9LXXA3UjEVAve_4X8BDxWY-KbouugnAIeb2pwAuqUtlSCHM5AC8KAx4FChbNlEgMFlwMz8lo0s0iAyLFx8kGpnIFieOVpKRgvAUzevIOrkLZgBgzeiTddZ4IcyDsxzikSv7QLLomLQMG9sLRgBhLAffaacEkMfgk1_j42CzDhxSVM4hbMQHYZlVokDm3ZrQDXxsmjW8qB2PEuacESShK_MIpVO7HLgf9ABqh1lMh7fZhLJEkmsBXOBkncshlwghy5JC4CsRv1FuSA8V8-0gtDsIRadhUK3FnCN7LAfWCukST4byI1STw7NjUEg39CiFwSZy_1LUtiJ7Kl7E6s7jY9WxY1AhOujGAJWZ16JmkVGMNS75Rci8TAxwNr9WmUwAPLHECIDWwgcFqIASwk6q_9t5LzjDgnCNSOROXgSrlf5fCjfC6wFZg_q8Y1jpLAoe4feFkQ_QfAoiYOuhV1cQAAAABJRU5ErkJggg%3D%3D
+manualScrollTasksType=Disabled
 
 [Containments][14][ConfigDialog]
 DialogHeight=600
 DialogWidth=586
 
 [Containments][14][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][14][General]
 advanced=false
@@ -327,13 +320,13 @@ enabled=true
 type=org.kde.latte.win10
 
 [LayoutSettings]
-activities=9fb4a3fd-e8c7-4fad-8f4b-e4fa7de099f1
-backgroundStyle=0
+activities=
+backgroundStyle=1
 color=orange
 customBackground=
 customTextColor=
 disableBordersForMaximizedWindows=true
-icon=
+icon=garuda-welcome
 lastUsedActivity=9fb4a3fd-e8c7-4fad-8f4b-e4fa7de099f1
 launchers=
 preferredForShortcutsTouched=false

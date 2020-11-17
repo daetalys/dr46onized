@@ -1,20 +1,17 @@
 [PlasmaThemeExtended]
 outlineWidth=1
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
-
 [UniversalSettings]
 badges3DStyle=false
 canDisableBorders=true
-currentLayout=Garuda
+currentLayout=Garuda Sweetified
 inAdvancedModeForEditSettings=true
 lastNonAssignedLayout=Garuda
 launchers=
 memoryUsage=0
-metaPressAndHoldEnabled=true
+metaPressAndHoldEnabled=false
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
-singleModeLayoutName=Garuda
+singleModeLayoutName=Garuda Sweetified
 version=2
