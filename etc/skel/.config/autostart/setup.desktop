@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Apply desktop settings
+Comment=Applies desktop settings at first start
+Icon=abrt
+Exec=sh -c "~/.config/autostart-scripts/setup.sh && rm -rf ~/.config/autostart/setup.desktop"
+Terminal=false
+Type=Application
+ 
