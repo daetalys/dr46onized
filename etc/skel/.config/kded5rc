@@ -4,11 +4,20 @@ autoload=true
 [Module-baloosearchmodule]
 autoload=true
 
+[Module-bluedevil]
+autoload=true
+
+[Module-browserintegrationreminder]
+autoload=false
+
 [Module-colorcorrectlocationupdater]
 autoload=true
 
+[Module-colord]
+autoload=true
+
 [Module-device_automounter]
-autoload=false
+autoload=true
 
 [Module-freespacenotifier]
 autoload=false
@@ -20,7 +29,7 @@ autoload=true
 autoload=true
 
 [Module-keyboard]
-autoload=false
+autoload=true
 
 [Module-khotkeys]
 autoload=true
