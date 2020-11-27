@@ -6,6 +6,8 @@ FontWeight=50
 
 [General]
 AutoExpandFolders=true
-GlobalViewProps=false
 ShowToolTips=true
 ShowZoomSlider=false
+
+[MainWindow]
+MenuBar=Disabled

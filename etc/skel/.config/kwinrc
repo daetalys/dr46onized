@@ -29,10 +29,11 @@ blurEnabled=true
 coverswitchEnabled=true
 cubeslideEnabled=true
 flipswitchEnabled=true
-force-decorations-gtk3Enabled=true
+force-decorations-gtk3Enabled=false
 forceblurEnabled=true
 hide-titlesEnabled=false
 highlightwindowEnabled=true
+kwin4_effect_dimscreenEnabled=true
 kwin4_effect_fadeEnabled=false
 kwin4_effect_scaleEnabled=true
 kwin4_effect_squashEnabled=false
@@ -57,6 +58,6 @@ BorderlessMaximizedWindows=true
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=XAI
-ButtonsOnRight=H
+ButtonsOnRight=
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Sweet-Dark
