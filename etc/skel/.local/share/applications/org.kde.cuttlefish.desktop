@@ -1,12 +1,9 @@
 [Desktop Entry]
 Categories=Qt;KDE;Development;IDE;
-Comment=Symbolvorschau für Künstler und Entwickler
 Exec=cuttlefish
-GenericName[de_DE]=Symbol-Betrachter
 GenericName=Icon Viewer
 Icon=preferences-desktop-accessibility-symbolic
 InitialPreference=7
-Name[de_DE]=Cuttlefish
 Name=Cuttlefish
 NoDisplay=false
 Path[$e]=
