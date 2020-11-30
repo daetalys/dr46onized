@@ -21,7 +21,6 @@ zPosition=815
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [NightColor]
-Active=true
 NightTemperature=2300
 
 [Plugins]
