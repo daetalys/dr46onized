@@ -38,7 +38,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][12][Applets][50][Configuration]
-PreloadWeight=0
+PreloadWeight=85
 
 [Containments][12][Applets][51]
 immutability=1
@@ -47,30 +47,44 @@ plugin=org.kde.plasma.volume
 [Containments][12][Applets][51][Configuration]
 PreloadWeight=0
 
+[Containments][12][Applets][51][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][12][Applets][52]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][12][Applets][52][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][12][Applets][53]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][12][Applets][53][Configuration]
+PreloadWeight=92
+
+[Containments][12][Applets][72]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][12][Applets][72][Configuration]
 PreloadWeight=0
 
-[Containments][12][Applets][69]
+[Containments][12][Applets][73]
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][12][Applets][69][Configuration]
-PreloadWeight=10
+[Containments][12][Applets][73][Configuration]
+PreloadWeight=0
 
-[Containments][12][Applets][71]
+[Containments][12][Applets][74]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+
+[Containments][12][Applets][74][Configuration]
+PreloadWeight=10
 
 [Containments][12][ConfigDialog]
 DialogHeight=540
@@ -117,8 +131,8 @@ DialogWidth=720
 appMenuIsPresent=true
 containmentType=Latte
 filterActivityInfo=false
-lengthFirstMargin=5
-lengthLastMargin=5
+lengthFirstMargin=7
+lengthLastMargin=7
 maximumLength=340
 placeHolder=Garuda KDE Plasma
 showIcon=false
@@ -128,7 +142,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][13][Applets][58][Configuration]
-PreloadWeight=26
+PreloadWeight=100
 SystrayContainmentId=12
 
 [Containments][13][Applets][65]
@@ -144,32 +158,12 @@ DialogWidth=720
 
 [Containments][13][Applets][65][Configuration][General]
 containmentType=Latte
-spacing=10
+spacing=7
 supportsActiveWindowSchemes=true
 windowTitleIsPresent=true
 
 [Containments][13][Applets][65][Shortcuts]
 global=
-
-[Containments][13][Applets][66]
-immutability=1
-plugin=org.kde.windowbuttons
-
-[Containments][13][Applets][66][Configuration]
-PreloadWeight=0
-
-[Containments][13][Applets][66][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][13][Applets][66][Configuration][General]
-buttonSizePercentage=48
-containmentType=Latte
-lengthFirstMargin=5
-lengthLastMargin=5
-spacing=6
-useDecorationMetrics=false
-visibility=ActiveMaximizedWindow
 
 [Containments][13][Applets][67]
 immutability=1
@@ -195,27 +189,47 @@ PreloadWeight=0
 [Containments][13][Applets][68][Configuration][Appearance]
 showDate=false
 
-[Containments][13][Applets][70]
-immutability=1
-plugin=org.kde.plasma.kicker
-
-[Containments][13][Applets][70][Configuration]
-PreloadWeight=100
-
-[Containments][13][Applets][70][Configuration][ConfigDialog]
+[Containments][13][Applets][68][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][13][Applets][70][Configuration][General]
-alphaSort=true
-customButtonImage=garuda-welcome
-favoritesPortedToKAstats=true
-limitDepth=true
-recentOrdering=1
-useCustomButtonImage=true
+[Containments][13][Applets][75]
+immutability=1
+plugin=org.kde.plasma.kickoff
 
-[Containments][13][Applets][70][Shortcuts]
+[Containments][13][Applets][75][Configuration]
+PreloadWeight=100
+
+[Containments][13][Applets][75][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][13][Applets][75][Configuration][General]
+favoritesPortedToKAstats=true
+icon=garuda-welcome
+menuItems=bookmark:t,application:t,computer:t,leave:t,oftenUsed:f,used:f
+systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
+
+[Containments][13][Applets][75][Shortcuts]
 global=Alt+F1
+
+[Containments][13][Applets][76]
+immutability=1
+plugin=org.kde.windowbuttons
+
+[Containments][13][Applets][76][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][13][Applets][76][Configuration][General]
+buttonSizePercentage=45
+containmentType=Latte
+inactiveStateEnabled=true
+lengthFirstMargin=7
+lengthLastMargin=7
+spacing=6
+useDecorationMetrics=false
+visibility=ActiveMaximizedWindow
 
 [Containments][13][ConfigDialog]
 DialogHeight=600
@@ -228,7 +242,7 @@ PreloadWeight=0
 advanced=false
 alignment=10
 alignmentUpgraded=true
-appletOrder=70;66;56;65;58;68;67
+appletOrder=75;76;56;65;58;68;67
 autoDecreaseIconSize=false
 disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
@@ -265,7 +279,7 @@ dockWindowBehavior=true
 enableKWinEdges=true
 formfactor=2
 immutability=1
-isPreferredForShortcuts=false
+isPreferredForShortcuts=true
 lastScreen=-1
 layoutId=
 location=4
@@ -306,9 +320,9 @@ backgroundOnlyOnMaximized=true
 disablePanelShadowForMaximized=true
 durationTime=x3
 iconSize=44
-maxLength=70
+lengthExtMargin=5
 panelPosition=Top
-panelSize=5
+panelSize=3
 proportionIconSize=4
 shadowOpacity=50
 shadowSize=30
@@ -317,12 +331,16 @@ shadowsUpgraded=true
 showGlow=false
 solidBackgroundForMaximized=true
 tasksUpgraded=true
-zoomLevel=11
+useThemePanel=false
+zoomLevel=5
 
 [Containments][14][Indicator]
 customType=org.kde.latte.win10
 enabled=true
 type=org.kde.latte.win10
+
+[Containments][14][Indicator][org.kde.latte.plasma][General]
+clickedAnimationEnabled=true
 
 [LayoutSettings]
 activities=
@@ -332,7 +350,6 @@ customBackground=
 customTextColor=
 disableBordersForMaximizedWindows=true
 icon=garuda-welcome
-lastUsedActivity=
 launchers=
 preferredForShortcutsTouched=true
 showInMenu=true
