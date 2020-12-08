@@ -38,7 +38,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][12][Applets][50][Configuration]
-PreloadWeight=85
+PreloadWeight=77
 
 [Containments][12][Applets][51]
 immutability=1
@@ -56,14 +56,21 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][12][Applets][52][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][12][Applets][53]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][12][Applets][53][Configuration]
-PreloadWeight=92
+PreloadWeight=84
+
+[Containments][12][Applets][54]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][12][Applets][54][Configuration]
+PreloadWeight=42
 
 [Containments][12][Applets][72]
 immutability=1
@@ -79,21 +86,49 @@ plugin=org.kde.plasma.battery
 [Containments][12][Applets][73][Configuration]
 PreloadWeight=0
 
-[Containments][12][Applets][74]
+[Containments][12][Applets][77]
 immutability=1
-plugin=org.kde.plasma.mediacontroller
+plugin=org.kde.plasma.diskquota
 
-[Containments][12][Applets][74][Configuration]
-PreloadWeight=10
+[Containments][12][Applets][77][Configuration]
+PreloadWeight=42
+
+[Containments][12][Applets][78]
+immutability=1
+plugin=org.kde.plasma.katesessions
+
+[Containments][12][Applets][78][Configuration]
+PreloadWeight=42
+
+[Containments][12][Applets][79]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][12][Applets][79][Configuration]
+PreloadWeight=42
+
+[Containments][12][Applets][80]
+immutability=1
+plugin=touchpad
+
+[Containments][12][Applets][80][Configuration]
+PreloadWeight=42
+
+[Containments][12][Applets][81]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Containments][12][Applets][81][Configuration]
+PreloadWeight=42
 
 [Containments][12][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][12][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.ktp-contactlist,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,Nextcloud
-hiddenItems=Nextcloud,org.kde.plasma.volume,org.kde.plasma.clipboard
-knownItems=org.kde.plasma.networkmanagement,org.kde.ktp-contactlist,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
+extraItems=org.kde.plasma.networkmanagement,org.kde.ktp-contactlist,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,Nextcloud,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.kscreen,touchpad,org.kde.plasma.diskquota,org.kde.plasma.nightcolorcontrol,org.kde.plasma.weather,org.kde.plasma.katesessions
+hiddenItems=Nextcloud,org.kde.plasma.clipboard,org.kde.kscreen,touchpad,org.kde.plasma.diskquota,org.kde.plasma.weather,org.kde.plasma.katesessions
+knownItems=org.kde.plasma.networkmanagement,org.kde.ktp-contactlist,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault
 
 [Containments][13]
 activityId=
@@ -142,7 +177,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][13][Applets][58][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 SystrayContainmentId=12
 
 [Containments][13][Applets][65]
@@ -198,16 +233,18 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][13][Applets][75][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][13][Applets][75][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][13][Applets][75][Configuration][General]
+alphaSort=true
 favoritesPortedToKAstats=true
 icon=garuda-welcome
-menuItems=bookmark:t,application:t,computer:t,leave:t,oftenUsed:f,used:f
+menuItems=application:t,oftenUsed:t,computer:t,leave:t,bookmark:f,used:f
+switchTabsOnHover=false
 systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
 
 [Containments][13][Applets][75][Shortcuts]
@@ -216,6 +253,9 @@ global=Alt+F1
 [Containments][13][Applets][76]
 immutability=1
 plugin=org.kde.windowbuttons
+
+[Containments][13][Applets][76][Configuration]
+PreloadWeight=42
 
 [Containments][13][Applets][76][Configuration][ConfigDialog]
 DialogHeight=540
@@ -350,6 +390,7 @@ customBackground=
 customTextColor=
 disableBordersForMaximizedWindows=true
 icon=garuda-welcome
+lastUsedActivity=ef49990b-83c3-4745-b921-3da31f036402
 launchers=
 preferredForShortcutsTouched=true
 showInMenu=true
