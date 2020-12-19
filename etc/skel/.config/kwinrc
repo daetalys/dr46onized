@@ -20,9 +20,6 @@ zPosition=815
 [ModifierOnlyShortcuts]
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
-[NightColor]
-NightTemperature=2300
-
 [Plugins]
 blurEnabled=true
 coverswitchEnabled=true
