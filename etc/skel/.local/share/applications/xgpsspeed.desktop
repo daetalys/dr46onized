@@ -1,0 +1,17 @@
+[Desktop Entry]
+Categories=Application;Maps;Utility;
+Comment=Display GPS speed from a gpsd daemon
+Comment=GPS Geschwindigkeit vom gpsd Daemon anezeigen
+Encoding=UTF-8
+Exec=xgpsspeed
+Icon=xgpsspeed
+Name=Speedometer (xgpsspeed)
+Name[de]=Tachometer (xgpsspeed)
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

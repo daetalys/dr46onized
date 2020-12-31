@@ -1,10 +1,12 @@
 [Desktop Entry]
 Categories=System;
 Comment=Show hardware topology
+Comment[de]=Harwaretopology anzeigen
 Exec=lstopo
 Icon=gnome-system-log
 Keywords=System;Utility;
-Name=Hardware Locality lstopo
+Name=Hardware Locality (lstopo)
+Name[de]=Hardware Locality (lstopo)
 NoDisplay=false
 Path[$e]=
 StartupNotify=true

@@ -1,10 +1,12 @@
 [Desktop Entry]
 Categories=GTK;Development;
 Comment=Inspect GTK Icon Theme
+Comment[de]=Das GTK Icon Theme anzeigen
 Encoding=UTF-8
 Exec=yad-icon-browser
 Icon=cuttlefish
 Name=Icon Browser
+Name[de]=Icon Browser
 NoDisplay=false
 Path[$e]=
 StartupNotify=true
