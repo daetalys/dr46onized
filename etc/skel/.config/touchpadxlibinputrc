@@ -1,2 +1,5 @@
 [SynPS/2 Synaptics TouchPad]
 tapToClick=true
+
+[Synaptics tm2964-001]
+tapToClick=true
