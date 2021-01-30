@@ -119,13 +119,13 @@ ForegroundPositive=113,247,159
 ForegroundVisited=179,13,191
 
 [General]
-BrowserApplication=chromium.desktop
+BrowserApplication=firefox.desktop
 ColorScheme=Sweet
 Name=Sweet
 TerminalApplication=alacritty
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=Fantasque Sans Mono,10,-1,5,50,0,0,0,0,0
+fixed=FantasqueSansMono Nerd Font,10,-1,5,50,0,0,0,0,0
 font=Fira Sans,10,-1,5,50,0,0,0,0,0
 menuFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
