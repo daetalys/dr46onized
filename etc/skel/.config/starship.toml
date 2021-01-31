@@ -2,20 +2,21 @@
 # First param ─┌
 [username]
 format = " [$user]($style)@"
-style_user = "bold blue"
+style_user = "bold red"
 style_root = "bold red"
 show_always = true
 
 # Second param
 [hostname]
 format = "[$hostname]($style) in "
-style = "bold dimmed blue"
+style = "bold dimmed red"
 trim_at = "-"
 ssh_only = false
 disabled = false
 
 # Third param
 [directory]
+style = "purple"
 truncation_length = 0
 truncate_to_repo = true
 truncation_symbol = "repo: "
@@ -30,7 +31,7 @@ deleted = "x"
 
 # Last param in the first line/row
 [cmd_duration]
-min_time = 10_00  # Show command duration over 10,000 milliseconds (=10 sec)
+min_time = 1
 format = "took [$duration]($style)"
 disabled = false
 
@@ -62,14 +63,14 @@ disabled = true
 
 # Prompt: param 2 └─
 [character]
-success_symbol = " [λ](bold green)"
+success_symbol = " [λ](bold red)"
 error_symbol = " [×](bold red)"
 use_symbol_for_status = true
 
 # SYMBOLS
 [status]
 symbol = "🔴"
-format = '[\[$symbol $status_common_meaning$status_signal_name$status_maybe_int\]]($style) '
+format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
 map_symbol = true
 disabled = false
 
