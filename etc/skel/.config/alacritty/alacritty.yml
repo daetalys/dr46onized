@@ -573,29 +573,3 @@ key_bindings:
 
   # Print all received window events.
   #print_events: false
-
-colors:
-  primary:
-    background: '0x0a1124'
-    foreground: '0xedc29a'
-  cursor:
-    text:       '0x0a1124'
-    cursor:     '0xedc29a'
-  normal:
-    black:      '0x0a1124'
-    red:        '0x63504E'
-    green:      '0xA33A4E'
-    yellow:     '0xEB3247'
-    blue:       '0xF35743'
-    magenta:    '0xF6A73B'
-    cyan:       '0xFAD42E'
-    white:      '0xedc29a'
-  bright:
-    black:      '0xa5876b'
-    red:        '0x63504E'
-    green:      '0xA33A4E'
-    yellow:     '0xEB3247'
-    blue:       '0xF35743'
-    magenta:    '0xF6A73B'
-    cyan:       '0xFAD42E'
-    white:      '0xedc29a'
