@@ -7,6 +7,5 @@ gtk-button-images=1
 gtk-cursor-theme-size=24
 gtk-cursor-theme-name="Sweet-cursors"
 gtk-icon-theme-name="BeautyLine"
-gtk-font-name="Fira Sans,  10"
-
+gtk-font-name="Fira Sans, 10"
 gtk-modules=appmenu-gtk-module
