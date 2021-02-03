@@ -11,7 +11,7 @@ UseCustomCursorColor=true
 [General]
 Name=Garuda
 Parent=FALLBACK/
-TerminalColumns=100
+TerminalColumns=110
 
 [Interaction Options]
 AutoCopySelectedText=true
