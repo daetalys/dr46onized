@@ -41,7 +41,7 @@ videowallEnabled=false
 wobblywindowsEnabled=true
 
 [Script-forceblur]
-patterns=yakuake\nurxvt\nkeepassxc\nAlacritty\nSpotify
+patterns=yakuake\nurxvt\nkeepassxc\nAlacritty\nSpotify\nkitty
 
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
