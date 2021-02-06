@@ -1,0 +1,5 @@
+[librewolf.desktop]
+_k_friendly_name=LibreWolf
+_launch=Meta+B,,LibreWolf
+new-private-window=,,New Private Window
+new-window=,,New Window
