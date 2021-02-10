@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=Sweet
-Font=Fantasque Sans Mono,12,-1,5,50,0,0,0,0,0
+Font=FantasqueSansMono Nerd Font Mono,12,-1,5,50,0,0,0,0,0
 UseFontLineChararacters=false
 
 [Cursor Options]
@@ -9,6 +9,7 @@ CustomCursorColor=255,0,0
 UseCustomCursorColor=true
 
 [General]
+Command=/usr/bin/fish
 Name=Garuda
 Parent=FALLBACK/
 TerminalColumns=110
