@@ -12,11 +12,12 @@ UseCustomCursorColor=true
 Command=/usr/bin/fish
 Name=Garuda
 Parent=FALLBACK/
-TerminalColumns=110
+TerminalColumns=130
 
 [Interaction Options]
 AutoCopySelectedText=true
-TrimLeadingSpacesInSelectedText=false
+TrimLeadingSpacesInSelectedText=true
+TrimTrailingSpacesInSelectedText=true
 UnderlineFilesEnabled=true
 
 [Keyboard]
