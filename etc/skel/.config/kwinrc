@@ -59,6 +59,7 @@ TouchBorderActivate=9
 
 [Windows]
 BorderlessMaximizedWindows=true
+ElectricBorderDelay=300
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=XAI
