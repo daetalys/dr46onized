@@ -137,6 +137,7 @@ widgetStyle=Breeze
 Theme=BeautyLine
 
 [KDE]
+AnimationDurationFactor=2
 ColorScheme=Sweet
 LookAndFeelPackage=Sweetified Plasma
 ShowDeleteCommand=false

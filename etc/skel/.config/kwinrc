@@ -17,6 +17,12 @@ NoiseStrength=0
 TabBox=true
 zPosition=815
 
+[Effect-DesktopGrid]
+BorderActivate=2,6
+
+[Effect-PresentWindows]
+BorderActivateAll=1,7
+
 [ModifierOnlyShortcuts]
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
@@ -32,7 +38,7 @@ highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_fadeEnabled=false
 kwin4_effect_scaleEnabled=true
-kwin4_effect_squashEnabled=false
+kwin4_effect_squashEnabled=true
 magiclampEnabled=true
 minimizeallEnabled=false
 slideEnabled=false
@@ -41,7 +47,9 @@ videowallEnabled=false
 wobblywindowsEnabled=true
 
 [Script-forceblur]
-patterns=yakuake\nurxvt\nkeepassxc\nAlacritty\nSpotify\nkitty
+blurExceptMatching=true
+blurMatching=false
+patterns=
 
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
