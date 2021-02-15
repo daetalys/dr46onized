@@ -1,7 +1,7 @@
 [Appearance]
-ColorScheme=Sweet
+ColorScheme=Sweetified
 Font=FantasqueSansMono Nerd Font Mono,12,-1,5,50,0,0,0,0,0
-UseFontLineChararacters=false
+UseFontLineChararacters=true
 
 [Cursor Options]
 CursorShape=1
