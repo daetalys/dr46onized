@@ -2,6 +2,7 @@
 DefaultProfile=Garuda.profile
 
 [KonsoleWindow]
+SaveGeometryOnExit=false
 ShowMenuBarByDefault=false
 
 [MainWindow]

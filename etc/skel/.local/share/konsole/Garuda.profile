@@ -12,7 +12,7 @@ UseCustomCursorColor=true
 Command=/usr/bin/fish
 Name=Garuda
 Parent=FALLBACK/
-TerminalColumns=130
+TerminalColumns=110
 
 [Interaction Options]
 AutoCopySelectedText=true
