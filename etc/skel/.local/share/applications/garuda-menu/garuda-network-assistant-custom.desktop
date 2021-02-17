@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=Network configuration and troubleshooting
+Exec=pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY HOME=$HOME garuda-network-assistant -style kvantum
+Icon=garuda-network-assistant
+Name=Garuda Network Assistant
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=garuda-network-assistant
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

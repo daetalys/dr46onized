@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment=Manage disks, partitions and file systems
+Exec=partitionmanager
+GenericName=Partition Editor
+Icon=partitionmanager
+Keywords=partition;disk;
+Name=KDE Partition Manager
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=partitionmanager
+Type=Application
+X-KDE-StartupNotify=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=

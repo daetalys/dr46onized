@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=Simple Boot Repair
+Exec=pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY HOME=$HOME garuda-boot-repair -style kvantum
+Icon=indicator-cpufreq
+Name=Garuda Boot Repair
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=garuda-boot-repair
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment=Universal document viewer
+Exec=okular %U
+GenericName=Document Viewer
+Icon=okular
+InitialPreference=7
+MimeType=application/vnd.kde.okular-archive;
+Name=Okular
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=okular
+Type=Application
+X-DBUS-ServiceName=org.kde.okular
+X-DocPath=okular/index.html
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=First setup & upgrade to Ultimate
+Encoding=UTF-8
+Exec=setup-assistant
+Icon=gnome-system-log
+Name=Setup Asssistant
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=setup-assistant
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

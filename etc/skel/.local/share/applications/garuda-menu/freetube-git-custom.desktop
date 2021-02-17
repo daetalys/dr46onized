@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=An open source desktop YouTube player built with privacy in mind.
+Exec=freetube
+GenericName=YouTube Player
+Icon=eu.tiliado.NuvolaAppYoutubeMusic
+Name=FreeTube
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=freetube
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

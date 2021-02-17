@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment=Free and Open Source Streaming/Recording Software
+Exec=obs
+GenericName=Streaming/Recording Software
+Icon=com.obsproject.Studio
+Name=OBS Studio
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+StartupWMClass=obs
+Terminal=0
+TerminalOptions=
+TryExec=obs
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment=KDE Advanced Text Editor
+Exec=kate -b %U
+GenericName=Advanced Text Editor
+Icon=kate
+InitialPreference=9
+MimeType=text/plain;
+Name=Kate
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=kate
+Type=Application
+X-DBUS-ServiceName=org.kde.kate
+X-DBUS-StartupType=Multi
+X-DocPath=kate/index.html
+X-KDE-HasTempFileOption=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=
