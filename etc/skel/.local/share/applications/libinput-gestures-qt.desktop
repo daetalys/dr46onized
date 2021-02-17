@@ -11,6 +11,7 @@ Path[$e]=
 StartupNotify=true
 Terminal=0
 TerminalOptions=
+TryExec=libinput-gestures-qt
 Type=Application
 X-KDE-SubstituteUID=false
 X-KDE-Username=
