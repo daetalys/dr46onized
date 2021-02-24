@@ -49,7 +49,7 @@ wobblywindowsEnabled=true
 [Script-forceblur]
 blurExceptMatching=true
 blurMatching=false
-patterns=
+patterns=Peek
 
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
