@@ -21,7 +21,7 @@ TrimTrailingSpacesInSelectedText=true
 UnderlineFilesEnabled=true
 
 [Keyboard]
-KeyBindings=linux
+KeyBindings=default
 
 [Scrolling]
 HistoryMode=1
