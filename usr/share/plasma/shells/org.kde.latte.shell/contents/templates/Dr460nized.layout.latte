@@ -32,7 +32,7 @@ PreloadWeight=0
 [Containments][1][Applets][2][Configuration][General]
 infoBadgeProminentColorEnabled=true
 isInLatteDock=true
-launchers59=applications:garuda-welcome.desktop,applications:Lightcord.desktop,applications:appimagekit_8e2c28334d3bdce9f41f2720165917d2-Kotatogram_Desktop.desktop,applications:org.kde.konsole.desktop,applications:firedragon.desktop,applications:org.kde.dolphin.desktop,applications:GitKraken.desktop,applications:thunderbird.desktop,applications:electron-mail.desktop,applications:org.kde.kate.desktop,applications:vscodium.desktop,applications:systemsettings.desktop,applications:virt-manager.desktop
+launchers59=applications:garuda-welcome.desktop,applications:org.kde.konsole.desktop,applications:librewolf.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop,applications:systemsettings.desktop,applications:timeshift-gtk.desktop,applications:org.manjaro.pamac.manager.desktop,applications:org.kde.kdeconnect.app.desktop
 
 [Containments][1][ConfigDialog]
 DialogHeight=600
@@ -90,12 +90,27 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.kickoff
 
+[Containments][12][Applets][40][Configuration]
+PreloadWeight=97
+
+[Containments][12][Applets][40][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][12][Applets][40][Configuration][General]
+favoritesPortedToKAstats=true
+icon=/usr/share/icons/garuda/dr460nized-start.svg
+menuItems=application:t,computer:t,leave:t,oftenUsed:f,bookmark:f,used:f
+switchTabsOnHover=false
+systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+
 [Containments][12][Applets][42]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][12][Applets][42][Configuration]
-PreloadWeight=96
+PreloadWeight=83
 SystrayContainmentId=13
 
 [Containments][12][Applets][77]
@@ -155,7 +170,7 @@ lengthFirstMargin=10
 lengthLastMargin=7
 lengthMarginsLock=false
 maximumLength=410
-placeHolder=Garuda KDE Plasma 🐉
+placeHolder=Garuda KDE Dr460nized 🐉
 showIcon=false
 
 [Containments][12][Applets][80]
@@ -165,6 +180,19 @@ plugin=org.kde.plasma.eventcalendar
 [Containments][12][Applets][83]
 immutability=1
 plugin=org.kde.plasma.userswitcher
+
+[Containments][12][Applets][83][Configuration]
+PreloadWeight=33
+
+[Containments][12][Applets][83][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][12][Applets][83][Configuration][General]
+showFace=true
+showFullName=false
+showName=false
+showTechnicalInfo=true
 
 [Containments][12][ConfigDialog]
 DialogHeight=600
@@ -247,10 +275,6 @@ plugin=org.kde.kdeconnect
 [Containments][13][Applets][53]
 immutability=1
 plugin=org.kde.plasma.battery
-
-[Containments][13][Applets][84]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
 
 [Containments][13][ConfigDialog]
 DialogHeight=540
