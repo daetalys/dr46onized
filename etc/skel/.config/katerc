@@ -51,10 +51,6 @@ Trailing Marker Size=1
 Word Wrap=false
 Word Wrap Column=80
 
-[KTextEditor Editor]
-Encoding Prober Type=1
-Fallback Encoding=ISO 8859-15
-
 [KTextEditor Renderer]
 Animate Bracket Matching=true
 Auto Color Theme Selection=false
@@ -114,15 +110,3 @@ AutoSyncronize=true
 RemoveExtension=false
 RunPrefix=
 SetEditor=false
-
-[MainWindow]
-eDP-1 XPosition=156
-eDP-1 YPosition=125
-
-[filetree]
-editShade=4,86,103
-listMode=false
-shadingEnabled=true
-showFullPathOnRoots=false
-sortRole=0
-viewShade=56,81,113

@@ -17,11 +17,24 @@ NoiseStrength=0
 TabBox=true
 zPosition=815
 
-[Effect-DesktopGrid]
-BorderActivate=2,6
+[Effect-Glide]
+Duration=90
+InDistance=50
+InRotationAngle=0
+OutDistance=35
+OutRotationAngle=0
 
-[Effect-PresentWindows]
-BorderActivateAll=1,7
+[Effect-Wobbly]
+Drag=85
+Stiffness=10
+WobblynessLevel=1
+
+[Effect-kwin4_effect_translucency]
+Dialogs=90
+Inactive=90
+
+[ElectricBorders]
+Left=ShowDesktop
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
@@ -33,13 +46,13 @@ cubeslideEnabled=true
 flipswitchEnabled=true
 force-decorations-gtk3Enabled=false
 forceblurEnabled=true
+glideEnabled=true
 hide-titlesEnabled=false
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
+kwin4_effect_eyeonscreenEnabled=true
 kwin4_effect_fadeEnabled=false
-kwin4_effect_scaleEnabled=true
-kwin4_effect_squashEnabled=true
-magiclampEnabled=true
+kwin4_effect_windowapertureEnabled=false
 minimizeallEnabled=false
 slideEnabled=false
 synchronizeskipswitcherEnabled=false
@@ -52,6 +65,7 @@ blurMatching=false
 patterns=Peek
 
 [TabBox]
+BorderActivate=9
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 LayoutName=coverswitch
@@ -59,7 +73,8 @@ TouchBorderActivate=9
 
 [Windows]
 BorderlessMaximizedWindows=true
-ElectricBorderDelay=300
+ElectricBorderCooldown=650
+ElectricBorderDelay=400
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=XAI
