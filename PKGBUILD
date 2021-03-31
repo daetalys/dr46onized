@@ -3,7 +3,7 @@
 
 pkgname=garuda-dr460nized
 pkgver=1.1.1
-pkgrel=1
+pkgrel=2
 arch=('any')
 url="https://gitlab.com/garuda-linux/themes-and-settings/settings/$pkgname"
 license=('GPL')
@@ -13,6 +13,7 @@ sha256sums=('SKIP')
 pkgdesc='Dr460nized settings'
 depends=('kvantum-qt5'
         'garuda-icons'
+        'garuda-fish-config'
         'nerd-fonts-fantasque-sans-mono'
         'ttf-fira-sans'
         'plasma5-applets-window-buttons'
