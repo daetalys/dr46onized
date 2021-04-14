@@ -47,7 +47,7 @@ autoload=true
 autoload=true
 
 [Module-networkstatus]
-autoload=true
+autoload=false
 
 [Module-proxyscout]
 autoload=false

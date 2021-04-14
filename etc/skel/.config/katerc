@@ -54,7 +54,7 @@ Word Wrap Column=80
 [KTextEditor Renderer]
 Animate Bracket Matching=true
 Auto Color Theme Selection=false
-Color Theme=Dracula
+Color Theme=gruvbox Dark
 Font=FantasqueSansMono Nerd Font Mono,11,-1,5,50,0,0,0,0,0
 Show Indentation Lines=true
 Show Whole Bracket Expression=true
@@ -65,6 +65,7 @@ Allow Mark Menu=true
 Auto Brackets=true
 Auto Center Lines=0
 Auto Completion=true
+Auto Completion Preselect First Entry=true
 Backspace Remove Composed Characters=false
 Bookmark Menu Sorting=0
 Bracket Match Preview=true

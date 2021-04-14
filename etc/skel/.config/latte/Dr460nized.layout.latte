@@ -12,6 +12,7 @@ isPreferredForShortcuts=false
 lastScreen=-1
 layoutId=
 location=4
+name=
 onPrimary=true
 plugin=org.kde.latte.containment
 raiseOnActivityChange=false
@@ -45,16 +46,18 @@ PreloadWeight=0
 advanced=false
 alignmentUpgraded=true
 appletOrder=2
+backgroundOnlyOnMaximized=true
+disablePanelShadowForMaximized=true
 durationTime=x3
 iconSize=16
 panelSize=0
-panelTransparency=0
 proportionIconSize=4.5
 shadowOpacity=60
 shadowSize=45
 shadows=All
 shadowsUpgraded=true
 showGlow=false
+solidBackgroundForMaximized=true
 tasksUpgraded=true
 zoomLevel=6
 
@@ -74,6 +77,7 @@ isPreferredForShortcuts=false
 lastScreen=11
 layoutId=
 location=3
+name=
 onPrimary=true
 plugin=org.kde.latte.containment
 raiseOnActivityChange=false
@@ -89,7 +93,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][12][Applets][40][Configuration]
-PreloadWeight=81
+PreloadWeight=100
 
 [Containments][12][Applets][40][Configuration][ConfigDialog]
 DialogHeight=540
@@ -108,7 +112,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][12][Applets][42][Configuration]
-PreloadWeight=86
+PreloadWeight=100
 SystrayContainmentId=13
 
 [Containments][12][Applets][77]
@@ -180,7 +184,7 @@ immutability=1
 plugin=org.kde.plasma.userswitcher
 
 [Containments][12][Applets][83][Configuration]
-PreloadWeight=14
+PreloadWeight=16
 
 [Containments][12][Applets][83][Configuration][ConfigDialog]
 DialogHeight=540
@@ -274,17 +278,21 @@ plugin=org.kde.kdeconnect
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][13][Applets][84]
+[Containments][13][Applets][87]
 immutability=1
-plugin=org.kde.plasma.clipboard
+plugin=touchpad
 
-[Containments][13][Applets][85]
+[Containments][13][Applets][89]
 immutability=1
-plugin=org.kde.plasma.nightcolorcontrol
+plugin=org.kde.plasma.mediacontroller
 
 [Containments][13][ConfigDialog]
-DialogHeight=540
+DialogHeight=558
 DialogWidth=720
+
+[Containments][13][General]
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,touchpad
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.volume
 
 [LayoutSettings]
 activities=

@@ -1,5 +1,4 @@
 [General]
-confirmLogout=false
 excludeApps=
 loginMode=emptySession
 offerShutdown=true

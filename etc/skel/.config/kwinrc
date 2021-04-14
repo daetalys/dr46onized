@@ -53,6 +53,7 @@ kwin4_effect_dimscreenEnabled=true
 kwin4_effect_eyeonscreenEnabled=true
 kwin4_effect_fadeEnabled=false
 kwin4_effect_squashEnabled=false
+kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
 magiclampEnabled=true
 minimizeallEnabled=false
