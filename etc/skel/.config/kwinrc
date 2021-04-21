@@ -1,7 +1,6 @@
 [Compositing]
 GLCore=true
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=false
 
 [Desktops]
 Id_1=1a831ee1-83fa-455a-aa49-81ac9129a9e4
