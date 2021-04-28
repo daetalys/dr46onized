@@ -33,9 +33,6 @@ WobblynessLevel=1
 Dialogs=90
 Inactive=90
 
-[ElectricBorders]
-Left=ShowDesktop
-
 [ModifierOnlyShortcuts]
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
