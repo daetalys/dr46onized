@@ -123,7 +123,7 @@ plugin=org.kde.windowappmenu
 PreloadWeight=0
 
 [Containments][12][Applets][77][Configuration][ConfigDialog]
-DialogHeight=540
+DialogHeight=558
 DialogWidth=720
 
 [Containments][12][Applets][77][Configuration][General]
@@ -184,7 +184,7 @@ immutability=1
 plugin=org.kde.plasma.userswitcher
 
 [Containments][12][Applets][83][Configuration]
-PreloadWeight=16
+PreloadWeight=19
 
 [Containments][12][Applets][83][Configuration][ConfigDialog]
 DialogHeight=540
@@ -209,7 +209,6 @@ alignment=10
 alignmentUpgraded=true
 appletOrder=40;78;79;77;42;80;83
 appletShadowsEnabled=false
-autoSizeEnabled=false
 backgroundOnlyOnMaximized=true
 disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
@@ -228,7 +227,6 @@ splitterPosition=5
 splitterPosition2=6
 tasksUpgraded=true
 thickMargin=7
-titleTooltips=false
 zoomLevel=0
 
 [Containments][12][Indicator]
@@ -282,17 +280,21 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=touchpad
 
-[Containments][13][Applets][89]
+[Containments][13][Applets][88]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
+[Containments][13][Applets][90]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][13][Applets][91]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][13][ConfigDialog]
 DialogHeight=558
 DialogWidth=720
-
-[Containments][13][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,touchpad
-knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.volume
 
 [LayoutSettings]
 activities=
@@ -301,9 +303,10 @@ color=blue
 customBackground=
 customTextColor=
 disableBordersForMaximizedWindows=true
-icon=garuda-assistant
+icon=dr460nized-start
 lastUsedActivity=
 launchers=
+popUpMargin=0
 preferredForShortcutsTouched=false
 showInMenu=true
 version=2
