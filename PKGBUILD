@@ -25,9 +25,9 @@ depends=('kvantum-qt5'
         'sweet-gtk-theme-dark'
         'sweet-kde-git'
         'xcursor-sweet')
-install=$pkgname.install
+install=$pkgname.install'kvantum-theme-sweet'
 provides=('garuda-desktop-settings')
-conflicts=('garuda-desktop-settings' 'kvantum-theme-sweet')
+conflicts=('garuda-desktop-settings')
 
 package() {
     install -d $pkgdir/etc
