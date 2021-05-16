@@ -14,13 +14,16 @@ pkgdesc='Dr460nized settings'
 depends=('kvantum-qt5'
         'garuda-icons'
         'garuda-fish-config'
+        'kvantum-theme-sweet-git'
         'nerd-fonts-fantasque-sans-mono'
         'ttf-fira-sans'
         'plasma5-applets-window-buttons'
         'plasma5-applets-window-appmenu'
         'plasma5-applets-window-title'
+        'plasma5-theme-sweet-git'
         'beautyline'
         'sweet-gtk-theme-dark'
+        'sweet-kde-git'
         'xcursor-sweet')
 install=$pkgname.install
 provides=('garuda-desktop-settings')
