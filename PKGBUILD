@@ -2,7 +2,7 @@
 # Maintainer: Librewish <librewish@gmail.com>
 
 pkgname=garuda-dr460nized
-pkgver=1.4.3
+pkgver=1.4.4
 pkgrel=1
 arch=('any')
 url="https://gitlab.com/garuda-linux/themes-and-settings/settings/$pkgname"
@@ -20,7 +20,6 @@ depends=('kvantum-qt5'
         'plasma5-applets-window-buttons'
         'plasma5-applets-window-appmenu'
         'plasma5-applets-window-title'
-        'plasma5-theme-sweet-git'
         'beautyline'
         'sweet-gtk-theme-dark'
         'sweet-kde-git'
