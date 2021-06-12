@@ -21,4 +21,4 @@ library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Sweet-Dark
 
 [plasmarc][Theme]
-name=Sweet
+name=sweet
