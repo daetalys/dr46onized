@@ -7,6 +7,8 @@ var layout = {
             ],
             "config": {
                 "/": {
+                    "ItemGeometries-1600x900": "",
+                    "ItemGeometriesHorizontal": "",
                     "formfactor": "0",
                     "immutability": "1",
                     "lastScreen": "0",
@@ -15,6 +17,9 @@ var layout = {
                 "/ConfigDialog": {
                     "DialogHeight": "540",
                     "DialogWidth": "720"
+                },
+                "/Configuration": {
+                    "PreloadWeight": "0"
                 },
                 "/General": {
                     "ToolBoxButtonState": "topcenter",
@@ -32,6 +37,25 @@ var layout = {
                 }
             },
             "wallpaperPlugin": "com.github.zren.inactiveblur"
+        },
+        {
+            "applets": [
+            ],
+            "config": {
+                "/": {
+                    "formfactor": "0",
+                    "immutability": "1",
+                    "lastScreen": "1",
+                    "wallpaperplugin": "org.kde.image"
+                },
+                "/Configuration": {
+                    "PreloadWeight": "42"
+                },
+                "/Wallpaper/org.kde.image/General": {
+                    "Image": "file:///usr/share/wallpapers/Next/contents/images/1366x768.png"
+                }
+            },
+            "wallpaperPlugin": "org.kde.image"
         }
     ],
     "panels": [

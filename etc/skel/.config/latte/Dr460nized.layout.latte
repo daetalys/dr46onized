@@ -9,7 +9,7 @@ enableKWinEdges=true
 formfactor=2
 immutability=1
 isPreferredForShortcuts=false
-lastScreen=-1
+lastScreen=12
 layoutId=
 location=4
 name=
@@ -74,7 +74,7 @@ enableKWinEdges=true
 formfactor=2
 immutability=1
 isPreferredForShortcuts=false
-lastScreen=11
+lastScreen=12
 layoutId=
 location=3
 name=
@@ -106,6 +106,9 @@ menuItems=application:t,computer:t,leave:t,oftenUsed:f,bookmark:f,used:f
 switchTabsOnHover=false
 systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+
+[Containments][12][Applets][40][Shortcuts]
+global=Alt+F1
 
 [Containments][12][Applets][42]
 immutability=1
@@ -190,11 +193,8 @@ PreloadWeight=19
 DialogHeight=540
 DialogWidth=720
 
-[Containments][12][Applets][83][Configuration][General]
-showFace=true
-showFullName=false
-showName=false
-showTechnicalInfo=true
+[Containments][12][Applets][92][Configuration][General]
+show_lockScreen=false
 
 [Containments][12][ConfigDialog]
 DialogHeight=600
@@ -207,7 +207,7 @@ PreloadWeight=0
 advanced=false
 alignment=10
 alignmentUpgraded=true
-appletOrder=40;78;79;77;42;80;83
+appletOrder=40;78;79;77;42;80;92
 appletShadowsEnabled=false
 backgroundOnlyOnMaximized=true
 disablePanelShadowForMaximized=true
@@ -227,6 +227,8 @@ splitterPosition=5
 splitterPosition2=6
 tasksUpgraded=true
 thickMargin=7
+userBlocksColorizingApplets=40;42;80;92
+windowColors=TouchingWindowColors
 zoomLevel=0
 
 [Containments][12][Indicator]
@@ -242,7 +244,7 @@ PreloadWeight=0
 activityId=
 formfactor=2
 immutability=1
-lastScreen=-1
+lastScreen=12
 layoutId=
 location=3
 plugin=org.kde.plasma.private.systemtray
@@ -263,10 +265,6 @@ plugin=org.kde.plasma.devicenotifier
 [Containments][13][Applets][49]
 immutability=1
 plugin=org.kde.plasma.notifications
-
-[Containments][13][Applets][50]
-immutability=1
-plugin=org.kde.plasma.keyboardindicator
 
 [Containments][13][Applets][51]
 immutability=1
@@ -308,5 +306,6 @@ lastUsedActivity=
 launchers=
 popUpMargin=0
 preferredForShortcutsTouched=false
+schemeFile=
 showInMenu=true
 version=2

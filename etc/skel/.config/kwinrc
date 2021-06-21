@@ -52,6 +52,7 @@ kwin4_effect_fadeEnabled=false
 kwin4_effect_squashEnabled=false
 kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
+lattewindowcolorsEnabled=true
 magiclampEnabled=true
 minimizeallEnabled=false
 slideEnabled=false
