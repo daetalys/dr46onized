@@ -3,7 +3,7 @@
 
 pkgname=garuda-dr460nized
 pkgver=1.5.1
-pkgrel=1
+pkgrel=2
 arch=('any')
 url="https://gitlab.com/garuda-linux/themes-and-settings/settings/$pkgname"
 license=('GPL')
@@ -27,7 +27,7 @@ depends=('kvantum-qt5'
         'xcursor-sweet')
 install=$pkgname.install
 provides=('garuda-desktop-settings')
-conflicts=('garuda-desktop-settings')
+conflicts=('garuda-desktop-settings' 'kwin-scripts-window-colors')
 
 package() {
     install -d $pkgdir/etc
