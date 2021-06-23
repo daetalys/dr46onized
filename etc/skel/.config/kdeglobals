@@ -137,7 +137,7 @@ Theme=BeautyLine
 
 [KDE]
 AnimationDurationFactor=2
-ColorScheme=Sweet
+ColorScheme=Sweetified
 LookAndFeelPackage=Sweetified Plasma
 ShowDeleteCommand=false
 contrast=4
@@ -166,10 +166,10 @@ View Style=Simple
 MaximumRemoteSize=0
 
 [WM]
-activeBackground=47,52,63
+activeBackground=12,14,20
 activeBlend=47,52,63
 activeFont=Fira Sans,10,-1,5,50,0,0,0,0,0
-activeForeground=211,218,227
+activeForeground=201,203,209
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
 inactiveForeground=102,106,115
