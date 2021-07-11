@@ -53,7 +53,7 @@ Word Wrap Column=80
 
 [KTextEditor Renderer]
 Animate Bracket Matching=true
-Auto Color Theme Selection=false
+Auto Color Theme Selection=true
 Color Theme=gruvbox Dark
 Font=FantasqueSansMono Nerd Font Mono,11,-1,5,50,0,0,0,0,0
 Show Indentation Lines=true
