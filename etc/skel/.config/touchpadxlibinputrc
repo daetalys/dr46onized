@@ -7,5 +7,4 @@ tapToClick=true
 [HTX USB HID Device HTX HID Device Touchpad]
 disableWhileTyping=false
 enabled=false
-pointerAcceleration=0.4
 tapDragLock=true

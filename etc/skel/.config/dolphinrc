@@ -1,9 +1,3 @@
-[CompactMode]
-FontWeight=50
-
-[DetailsMode]
-FontWeight=50
-
 [General]
 AutoExpandFolders=true
 ShowToolTips=true
