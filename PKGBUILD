@@ -2,7 +2,7 @@
 # Maintainer: Librewish <librewish@gmail.com>
 
 pkgname=garuda-dr460nized
-pkgver=1.5.4
+pkgver=1.5.5
 pkgrel=1
 arch=('any')
 url="https://gitlab.com/garuda-linux/themes-and-settings/settings/$pkgname"

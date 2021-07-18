@@ -89,17 +89,17 @@ ForegroundPositive=113,247,159
 ForegroundVisited=179,13,191
 
 [General]
-ColorScheme=Sweet
-Name=Sweet
+ColorScheme=Sweetified
+Name=Sweetified
 shadeSortColumn=true
 
 [KDE]
 contrast=4
 
 [WM]
-activeBackground=47,52,63
+activeBackground=12,14,20
 activeBlend=47,52,63
-activeForeground=211,218,227
+activeForeground=201,203,209
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
 inactiveForeground=102,106,115
