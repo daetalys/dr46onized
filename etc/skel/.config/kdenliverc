@@ -1,0 +1,11 @@
+[UiSettings]
+ColorSchemePath=Sweetified.colors
+
+[misc]
+openlastproject=true
+
+[project]
+vaapiEnabled=true
+
+[sdl]
+gpu_accel=true

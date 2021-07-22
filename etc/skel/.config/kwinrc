@@ -29,10 +29,6 @@ Drag=85
 Stiffness=10
 WobblynessLevel=1
 
-[Effect-kwin4_effect_translucency]
-Dialogs=90
-Inactive=90
-
 [ModifierOnlyShortcuts]
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
@@ -56,8 +52,6 @@ lattewindowcolorsEnabled=true
 magiclampEnabled=true
 minimizeallEnabled=false
 slideEnabled=false
-synchronizeskipswitcherEnabled=false
-videowallEnabled=false
 wobblywindowsEnabled=true
 
 [Script-forceblur]
@@ -67,15 +61,11 @@ patterns=Peek
 
 [TabBox]
 BorderActivate=9
-DesktopLayout=org.kde.breeze.desktop
-DesktopListLayout=org.kde.breeze.desktop
 LayoutName=coverswitch
 TouchBorderActivate=9
 
 [Windows]
 BorderlessMaximizedWindows=true
-ElectricBorderCooldown=650
-ElectricBorderDelay=400
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=XAI

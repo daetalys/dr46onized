@@ -1,10 +1,13 @@
 [General]
 BrowserApplication=firedragon.desktop
 ColorScheme=Sweetified
-Name=Sweet
+Name=Sweetified
+XftHintStyle=hintslight
+XftSubPixel=rgb
 fixed=FantasqueSansMono Nerd Font Mono,10,-1,5,50,0,0,0,0,0
 font=Fira Sans,10,-1,5,50,0,0,0,0,0
 menuFont=Fira Sans,10,-1,5,50,0,0,0,0,0
+shadeSortColumn=true
 smallestReadableFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 toolBarFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 widgetStyle=kvantum-dark
