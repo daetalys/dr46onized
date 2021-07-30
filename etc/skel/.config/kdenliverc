@@ -4,8 +4,5 @@ ColorSchemePath=Sweetified.colors
 [misc]
 openlastproject=true
 
-[project]
-vaapiEnabled=true
-
-[sdl]
-gpu_accel=true
+[unmanaged]
+widgetstyle=kvantum-dark
