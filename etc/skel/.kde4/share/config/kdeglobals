@@ -21,3 +21,6 @@ ColorScheme=Sweetified
 LookAndFeelPackage=Sweetified Plasma
 contrast=4
 widgetStyle=kvantum-dark
+
+[WM]
+activeFont=Fira Sans,11,-1,5,57,0,0,0,0,0,Medium
