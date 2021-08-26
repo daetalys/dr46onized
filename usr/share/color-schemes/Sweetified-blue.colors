@@ -89,8 +89,8 @@ ForegroundPositive=113,247,159
 ForegroundVisited=47,68,143
 
 [General]
-ColorScheme=Sweetified
-Name=SGS-blue
+ColorScheme=Sweetified-blue
+Name=Sweetified-blue
 shadeSortColumn=true
 
 [KDE]
