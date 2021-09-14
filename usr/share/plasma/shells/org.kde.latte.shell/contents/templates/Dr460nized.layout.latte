@@ -33,7 +33,7 @@ PreloadWeight=0
 [Containments][1][Applets][2][Configuration][General]
 infoBadgeProminentColorEnabled=true
 isInLatteDock=true
-launchers59=applications:garuda-welcome.desktop,applications:org.kde.konsole.desktop,applications:firedragon.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop,applications:systemsettings.desktop,applications:octopi.desktop,applications:timeshift-gtk.desktop,applications:org.kde.kdeconnect.app.desktop
+launchers59=applications:garuda-welcome.desktop,applications:org.kde.konsole.desktop,applications:firedragon.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop,applications:systemsettings.desktop,applications:octopi.desktop,applications:org.kde.kdeconnect.app.desktop
 
 [Containments][1][ConfigDialog]
 DialogHeight=600
@@ -187,14 +187,16 @@ immutability=1
 plugin=org.kde.plasma.userswitcher
 
 [Containments][12][Applets][83][Configuration]
-PreloadWeight=19
+PreloadWeight=24
 
 [Containments][12][Applets][83][Configuration][ConfigDialog]
-DialogHeight=540
+DialogHeight=558
 DialogWidth=720
 
-[Containments][12][Applets][92][Configuration][General]
-show_lockScreen=false
+[Containments][12][Applets][83][Configuration][General]
+showFace=true
+showName=false
+showTechnicalInfo=true
 
 [Containments][12][ConfigDialog]
 DialogHeight=600
@@ -207,7 +209,7 @@ PreloadWeight=0
 advanced=false
 alignment=10
 alignmentUpgraded=true
-appletOrder=40;78;79;77;42;80;92
+appletOrder=40;78;79;77;42;80;83
 appletShadowsEnabled=false
 backgroundOnlyOnMaximized=true
 disablePanelShadowForMaximized=true
@@ -216,7 +218,7 @@ iconSize=16
 inConfigureAppletsMode=true
 panelSize=100
 plasmaBackgroundForPopups=true
-proportionIconSize=3
+proportionIconSize=2.8
 shadowOpacity=60
 shadowSize=45
 shadows=All
@@ -227,7 +229,7 @@ splitterPosition=5
 splitterPosition2=6
 tasksUpgraded=true
 thickMargin=7
-userBlocksColorizingApplets=40;42;80;92
+userBlocksColorizingApplets=40;42;80;83
 windowColors=TouchingWindowColors
 zoomLevel=0
 
@@ -288,7 +290,15 @@ plugin=org.kde.plasma.clipboard
 
 [Containments][13][Applets][91]
 immutability=1
-plugin=org.kde.plasma.mediacontroller
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][13][Applets][92]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][13][Applets][93]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][13][ConfigDialog]
 DialogHeight=558
