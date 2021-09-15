@@ -182,6 +182,10 @@ showIcon=false
 immutability=1
 plugin=org.kde.plasma.eventcalendar
 
+[Containments][12][Applets][80][Configuration][General]
+v71Migration=true
+v72Migration=true
+
 [Containments][12][Applets][83]
 immutability=1
 plugin=org.kde.plasma.userswitcher
@@ -198,6 +202,10 @@ showFace=true
 showName=false
 showTechnicalInfo=true
 
+[Containments][12][Applets][95]
+immutability=1
+plugin=org.kde.netspeedWidget
+
 [Containments][12][ConfigDialog]
 DialogHeight=600
 DialogWidth=586
@@ -209,7 +217,7 @@ PreloadWeight=0
 advanced=false
 alignment=10
 alignmentUpgraded=true
-appletOrder=40;78;79;77;42;80;83
+appletOrder=40;78;79;77;95;42;80;83
 appletShadowsEnabled=false
 backgroundOnlyOnMaximized=true
 disablePanelShadowForMaximized=true
@@ -300,9 +308,21 @@ plugin=org.kde.plasma.keyboardlayout
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
+[Containments][13][Applets][94]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][13][Applets][96]
+immutability=1
+plugin=org.kde.kscreen
+
 [Containments][13][ConfigDialog]
 DialogHeight=558
 DialogWidth=720
+
+[Containments][13][General]
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.kscreen
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.volume
 
 [LayoutSettings]
 activities=
