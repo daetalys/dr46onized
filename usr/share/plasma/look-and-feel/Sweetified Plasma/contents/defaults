@@ -1,3 +1,6 @@
+[Autostart]
+Services=org.kde.latte-dock
+
 [kcminputrc][Mouse]
 cursorTheme=Sweet-cursors
 
@@ -8,7 +11,13 @@ ColorScheme=Sweetified
 Theme=BeautyLine
 
 [kdeglobals][KDE]
+ColorScheme=Sweetified
+LookAndFeelPackage=Sweetified Plasma
 widgetStyle=kvantum-dark
+
+
+[kwinrc][Windows]
+BorderlessMaximizedWindows=true
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
@@ -22,3 +31,26 @@ theme=__aurorae__svg__Sweet-Dark
 
 [plasmarc][Theme]
 name=Sweet
+
+[ksplashrc][KSplash]
+Engine=none
+Theme=None
+
+[kscreenlockerrc][Greeter]
+WallpaperPlugin=com.github.zren.inactiveblur
+
+[kscreenlockerrc][Greeter][Wallpaper][com.github.zren.inactiveblur][General]
+Image=file:///usr/share/wallpapers/garuda-wallpapers/Ghosts.jpg
+
+[gtk-3.0/settings.ini][Settings]
+gtk-theme-name=Sweet-Dark
+
+[.gtkrc-2.0]
+gtk-theme-name=Sweet-Dark
+
+[kvantum.kvconfig][General]
+theme=Sweet-transparent-toolbar
+
+[lattedockrc][UniversalSettings]
+currentLayout=Dr460nized
+lastNonAssignedLayout=Dr460nized
